@@ -15,43 +15,43 @@
                 </div>
                 <div class="form__wrap w-[calc(100%_-_350px)] p-[30px]">
                     <form id="hpp__instantPricesForm" class="mb-0">
-                        <div class="flex flex-wrap ml-[-10px] mr-[-10px]">
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                        <div class="flex flex-wrap ml-[-5px] mr-[-5px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-full-name" class="sr-only">Full Name</label>
                                 <input type="text" placeholder="Full Name" id="ipf-full-name"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-email" class="sr-only">Email</label>
                                 <input type="email" placeholder="Email" id="ipf-email"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-phone" class="sr-only">Phone</label>
                                 <input type="text" placeholder="Phone" id="ipf-phone"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-company-name" class="sr-only">Company Name</label>
                                 <input type="text" placeholder="Company Name" id="ipf-company-name"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-website" class="sr-only">Website</label>
                                 <input type="text" placeholder="Website" id="ipf-website"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-address" class="sr-only">Physical Address</label>
                                 <input type="text" placeholder="Physical Address" id="ipf-address"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-quantity" class="sr-only">Quantity</label>
                                 <input type="text" placeholder="Quantity" id="ipf-quantity"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
                             </div>
-                            <div class="relative basis-[50%] px-[10px] mb-[20px]">
+                            <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-select-industry" class="sr-only">Select Industry</label>
                                 <select name="box-type" id="ipf-select-industry"
                                     class="hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-sm transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
@@ -90,10 +90,10 @@
                                     <option value="Fragrance">Fragrance</option>
                                 </select>
                             </div>
-                            <div class="flex items-end justify-center basis-full px-[10px] mb-[20px]">
+                            <div class="flex items-end justify-center basis-full px-[5px] mb-[10px]">
                                 <NuxtImg format="webp" src="assets/images/recaptcha-placeholder.png" alt="Sample Kit Thumbnail" loading="lazy" width="350" height="88" class="w-[350px] h-auto" />
                             </div>
-                            <div class="flex items-end justify-center basis-full px-[10px]">
+                            <div class="flex items-end justify-center basis-full px-[5px]">
                                 <button
                                     class="text-[#ffffff] text-[12px] uppercase font-semibold border border-[#ef4b5f] bg-[#ef4b5f] select-none transition-all py-[10px] px-[25px] rounded-md no-underline select-none font-normal"
                                     type="submit">Order Now</button>

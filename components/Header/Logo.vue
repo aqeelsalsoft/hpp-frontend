@@ -3,7 +3,7 @@
 <template>
     <div class="hpp__logoWrap px-[15px]">
         <NuxtLink to="/" aria-label="Half Price Packaging Logo">
-            <svg class="w-[255px] h-[66px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376.445" height="99.513" viewBox="0 0 376.445 99.513">
+            <svg class="w-[200px] h-[52px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376.445" height="99.513" viewBox="0 0 376.445 99.513">
                 <defs>
                     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
                         <stop offset="0" stop-color="#8858e0" />

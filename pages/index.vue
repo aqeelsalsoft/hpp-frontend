@@ -3,11 +3,11 @@
         <HomeBannerWrapper />
         <!-- <HomeTrustPilotBarWrapper /> -->
         <HomeFeaturedIndustriesWrapper />
-        <HomeSaveBulkOrderCTAWrapper />
+        <GeneralSaveBulkOrderCTAWrapper />
         <HomeFeaturedProductsWrapper />
         <HomeInstantPricesWrapper />
-        <HomeCustomPackagingSuccessWrapper />
-        <!-- <HomeStartJourneyCTAWrapper /> -->
+        <GeneralVideoTestimonialWrapper />
+        <GeneralGreenInitiativeWrapper />
         <GeneralSampleKitWrapper />
     </div>
 </template>
