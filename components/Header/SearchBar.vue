@@ -4,7 +4,7 @@
     <div class="hpp__searchBarWrapper px-[15px]">
         <div class="search__innerWrap relative w-[460px]">
             <div class="field__wrap">
-                <input type="text" name="hpp__search" id="hpp__search" placeholder="Search" class="w-full bg-[#f2f2f2] rounded-[30px] py-[10px] pr-[55px] pl-[25px] focus:outline-none active:outline-none" />
+                <input type="text" name="hpp__search" id="hpp__search" placeholder="Search" class="font-description font-light text-[14px] w-full bg-[#f2f2f2] rounded-[30px] py-[10px] pr-[55px] pl-[25px] focus:outline-none active:outline-none" />
             </div>
             <button class="search__btnWrap absolute top-0 right-0 h-[100%] py-[3px] pl-[8px] pr-[20px]" aria-label="Search Button">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px]" width="29.414" height="29.414" viewBox="0 0 29.414 29.414">

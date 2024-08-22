@@ -2,12 +2,12 @@
     <div class="hpp__homePageContentWrap">
         <HomeBannerWrapper />
         <!-- <HomeTrustPilotBarWrapper /> -->
-        <HomeFeaturedIndustriesWrapper />
-        <GeneralSaveBulkOrderCTAWrapper />
-        <HomeFeaturedProductsWrapper />
-        <HomeInstantPricesWrapper />
-        <GeneralVideoTestimonialWrapper />
-        <GeneralGreenInitiativeWrapper />
-        <GeneralSampleKitWrapper />
+        <LazyHomeFeaturedIndustriesWrapper />
+        <LazyGeneralSaveBulkOrderCTAWrapper />
+        <LazyHomeFeaturedProductsWrapper />
+        <LazyHomeInstantPricesWrapper />
+        <LazyGeneralVideoTestimonialWrapper />
+        <LazyGeneralGreenInitiativeWrapper />
+        <LazyGeneralSampleKitWrapper />
     </div>
 </template>

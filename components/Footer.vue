@@ -6,10 +6,11 @@
             <div class="hpp__footerNavWrapper grid grid-cols-6 gap-4 gap-y-20 mb-10">
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#" class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
+                        <NuxtLink to="#"
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
                             About Us</NuxtLink>
                     </div>
-                    <ul>
+                    <ul class="font-description">
                         <li class="mb-[5px]">
                             <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Half Price
                                 Packaging</NuxtLink>
@@ -38,10 +39,11 @@
                 </div>
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#" class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
+                        <NuxtLink to="#"
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
                             Products</NuxtLink>
                     </div>
-                    <ul>
+                    <ul class="font-description">
                         <li class="mb-[5px]">
                             <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Tissue
                             </NuxtLink>
@@ -74,10 +76,11 @@
                 </div>
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#" class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
+                        <NuxtLink to="#"
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
                             &nbsp;</NuxtLink>
                     </div>
-                    <ul>
+                    <ul class="font-description">
                         <li class="mb-[5px]">
                             <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Food Paper
                             </NuxtLink>
@@ -106,10 +109,11 @@
                 </div>
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#" class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
+                        <NuxtLink to="#"
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
                             Partners</NuxtLink>
                     </div>
-                    <ul>
+                    <ul class="font-description">
                         <li class="mb-[5px]">
                             <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Industry
                                 Experts</NuxtLink>
@@ -122,10 +126,11 @@
                 </div>
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#" class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
+                        <NuxtLink to="#"
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
                             Inspiration</NuxtLink>
                     </div>
-                    <ul>
+                    <ul class="font-description">
                         <li class="mb-[5px]">
                             <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">The Wrap
                             </NuxtLink>
@@ -146,10 +151,11 @@
                 </div>
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#" class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">My
+                        <NuxtLink to="#"
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">My
                             Account</NuxtLink>
                     </div>
-                    <ul>
+                    <ul class="font-description">
                         <li class="mb-[5px]">
                             <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">My Orders
                             </NuxtLink>
@@ -170,7 +176,7 @@
                     <div class="hpp__trustedByWrapper">
                         <h2 class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100 mb-3">Trusted By
                         </h2>
-                        <div class="logos__wrapper flex items-center">
+                        <div class="logos__wrapper flex items-center -mx-[15px]">
                             <div class="logo px-[15px]">
                                 <NuxtLink
                                     to="https://www.google.com/search?q=half+price+packaging&sxsrf=ALiCzsagnxfrnR5uzV0qnBby6qK5JPHlfA%3A1667214393089&source=hp&ei=OaxfY9e8A6aJlwTW4oD4Dg&iflsig=AJiK0e8AAAAAY1-6STHTn6Ls6EZe00ThMT0OmDApSXrJ&ved=0ahUKEwiXvabNqYr7AhWmxIUKHVYxAO8Q4dUDCAg&uact=5&oq=half+price+packaging&gs_lcp=Cgdnd3Mtd2l6EAMyCgguEMcBEK8BECcyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6BwgjEOoCECc6BAgjECc6CgguEMcBENEDEEM6BAgAEEM6BwguENQCEEM6CAgAELEDEIMBOggIABCABBCxAzoHCAAQyQMQQzoECC4QQzoHCAAQsQMQQzoKCAAQsQMQgwEQQzoKCC4QsQMQgwEQQzoICC4QgAQQsQM6CggAEIAEEIcCEBQ6BQguEIAEOgcIABCABBAKOgsILhCABBDHARCvAToICAAQgAQQyQM6CQgAEBYQHhDJAzoICAAQFhAeEApQAFjaFGDlFWgBcAB4A4ABmAWIAbgwkgEKMi0xMy41LjAuMpgBAKABAbABCg&sclient=gws-wiz">
@@ -192,14 +198,10 @@
                                         loading="lazy" width="100" height="38" class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
-                            <!-- <div class="logo px-[15px]">
-                                <NuxtImg format="webp" src="assets/images/fsc-logo.jpg" alt="FSC Logo" loading="lazy"
-                                    width="234" height="84" class="w-full h-auto" />
-                            </div> -->
                             <div class="logo px-[15px]">
                                 <NuxtLink to="https://www.trustpilot.com/review/www.halfpricepackaging.com"
                                     target="_blank" aria-label="Visit our Trustpilot Profile">
-                                    <svg height="-437" viewBox="20.5 248.5 600 147.3" width="2500"
+                                    <svg height="437" viewBox="20.5 248.5 600 147.3" width="2500"
                                         xmlns="http://www.w3.org/2000/svg" class="w-[120px] h-[29px]">
                                         <path
                                             d="m178.2 300.7h60.7v11.3h-23.9v63.7h-13.1v-63.7h-23.8zm58.1 20.7h11.2v10.5h.2c.4-1.5 1.1-2.9 2.1-4.3s2.2-2.7 3.7-3.8c1.4-1.2 3-2.1 4.8-2.8 1.7-.7 3.5-1.1 5.3-1.1 1.4 0 2.4.1 2.9.1.5.1 1.1.2 1.6.2v11.5c-.8-.2-1.7-.3-2.6-.4s-1.7-.2-2.6-.2c-2 0-3.9.4-5.7 1.2s-3.3 2-4.7 3.5c-1.3 1.6-2.4 3.5-3.2 5.8s-1.2 5-1.2 8v25.8h-12zm86.8 54.3h-11.8v-7.6h-.2c-1.5 2.8-3.7 4.9-6.6 6.6s-5.9 2.5-8.9 2.5c-7.1 0-12.3-1.7-15.5-5.3-3.2-3.5-4.8-8.9-4.8-16v-34.5h12v33.3c0 4.8.9 8.2 2.8 10.1 1.8 2 4.4 3 7.7 3 2.5 0 4.6-.4 6.3-1.2s3.1-1.8 4.1-3.1c1.1-1.3 1.8-2.9 2.3-4.7s.7-3.8.7-5.9v-31.5h12v54.3zm20.4-17.4c.4 3.5 1.7 5.9 4 7.4 2.3 1.4 5.1 2.1 8.3 2.1 1.1 0 2.4-.1 3.8-.3s2.8-.5 4-1c1.3-.5 2.3-1.2 3.1-2.2s1.2-2.2 1.1-3.7-.6-2.8-1.7-3.8-2.4-1.7-4-2.4c-1.6-.6-3.5-1.1-5.6-1.5s-4.2-.9-6.4-1.4-4.4-1.1-6.5-1.8-3.9-1.6-5.6-2.9c-1.6-1.2-3-2.7-3.9-4.6-1-1.9-1.5-4.1-1.5-6.9 0-3 .7-5.4 2.2-7.4 1.4-2 3.3-3.6 5.5-4.8s4.7-2.1 7.4-2.6 5.3-.7 7.7-.7c2.8 0 5.5.3 8 .9s4.9 1.5 6.9 2.9c2.1 1.3 3.8 3.1 5.1 5.2 1.4 2.1 2.2 4.7 2.6 7.7h-12.5c-.6-2.9-1.9-4.8-3.9-5.8-2.1-1-4.4-1.5-7.1-1.5-.8 0-1.9.1-3 .2-1.2.2-2.2.4-3.3.8-1 .4-1.9 1-2.6 1.7s-1.1 1.7-1.1 2.9c0 1.5.5 2.6 1.5 3.5s2.3 1.6 4 2.3c1.6.6 3.5 1.1 5.6 1.5s4.3.9 6.5 1.4 4.3 1.1 6.4 1.8 4 1.6 5.6 2.9c1.6 1.2 3 2.7 4 4.5s1.5 4.1 1.5 6.7c0 3.2-.7 5.9-2.2 8.2-1.5 2.2-3.4 4.1-5.7 5.5s-5 2.4-7.8 3.1c-2.9.6-5.7 1-8.5 1-3.4 0-6.6-.4-9.5-1.2s-5.5-2-7.6-3.5c-2.1-1.6-3.8-3.5-5-5.9-1.2-2.3-1.9-5.1-2-8.4h12.1v.1zm39.5-36.9h9.1v-16.4h12v16.3h10.8v8.9h-10.8v29c0 1.3.1 2.3.2 3.3.1.9.4 1.7.7 2.3.4.6 1 1.1 1.7 1.4.8.3 1.8.5 3.2.5.8 0 1.7 0 2.5-.1s1.7-.2 2.5-.4v9.3c-1.3.2-2.6.3-3.9.4-1.3.2-2.5.2-3.9.2-3.2 0-5.7-.3-7.6-.9s-3.4-1.5-4.5-2.6c-1.1-1.2-1.8-2.6-2.2-4.3s-.6-3.8-.7-6v-32h-9.1v-9.1zm40.3 0h11.3v7.4h.2c1.7-3.2 4-5.4 7-6.8s6.2-2.1 9.8-2.1c4.3 0 8 .7 11.2 2.3 3.2 1.5 5.8 3.5 7.9 6.2 2.1 2.6 3.7 5.7 4.7 9.2s1.6 7.3 1.6 11.2c0 3.7-.5 7.2-1.4 10.6-1 3.4-2.4 6.5-4.3 9.1s-4.3 4.7-7.3 6.3-6.4 2.4-10.4 2.4c-1.7 0-3.5-.2-5.2-.5s-3.4-.8-5-1.5-3.1-1.6-4.4-2.7c-1.4-1.1-2.5-2.4-3.4-3.8h-.2v27.1h-12v-74.4zm41.9 27.2c0-2.4-.3-4.8-1-7.1-.6-2.3-1.6-4.3-2.9-6.1s-2.9-3.2-4.7-4.3c-1.9-1.1-4.1-1.6-6.5-1.6-5 0-8.8 1.7-11.4 5.2-2.5 3.5-3.8 8.2-3.8 14 0 2.8.3 5.3 1 7.6s1.6 4.3 3 6c1.3 1.7 2.9 3 4.8 4s4 1.5 6.5 1.5c2.8 0 5-.6 6.9-1.7s3.4-2.6 4.7-4.3c1.2-1.8 2.1-3.8 2.6-6.1.5-2.4.8-4.7.8-7.1zm21.1-47.9h12v11.3h-12zm0 20.7h12v54.3h-12zm22.7-20.7h12v75h-12zm48.6 76.5c-4.3 0-8.2-.7-11.6-2.2s-6.2-3.4-8.6-5.9c-2.3-2.5-4.1-5.6-5.3-9.1s-1.9-7.4-1.9-11.5.6-7.9 1.9-11.4c1.2-3.5 3-6.5 5.3-9.1 2.3-2.5 5.2-4.5 8.6-5.9s7.3-2.2 11.6-2.2 8.2.7 11.6 2.2c3.4 1.4 6.2 3.4 8.6 5.9 2.3 2.5 4.1 5.6 5.3 9.1s1.9 7.3 1.9 11.4c0 4.2-.6 8-1.9 11.5s-3 6.5-5.3 9.1c-2.3 2.5-5.2 4.5-8.6 5.9s-7.2 2.2-11.6 2.2zm0-9.5c2.6 0 5-.6 6.9-1.7 2-1.1 3.5-2.6 4.8-4.4s2.2-3.9 2.8-6.1c.6-2.3.9-4.6.9-7 0-2.3-.3-4.6-.9-6.9s-1.5-4.3-2.8-6.1-2.9-3.2-4.8-4.3c-2-1.1-4.3-1.7-6.9-1.7s-5 .6-6.9 1.7c-2 1.1-3.5 2.6-4.8 4.3-1.3 1.8-2.2 3.8-2.8 6.1s-.9 4.6-.9 6.9c0 2.4.3 4.7.9 7s1.5 4.3 2.8 6.1 2.9 3.3 4.8 4.4c2 1.2 4.3 1.7 6.9 1.7zm31-46.3h9.1v-16.4h12v16.3h10.8v8.9h-10.8v29c0 1.3.1 2.3.2 3.3.1.9.4 1.7.7 2.3.4.6 1 1.1 1.7 1.4.8.3 1.8.5 3.2.5.8 0 1.7 0 2.5-.1s1.7-.2 2.5-.4v9.3c-1.3.2-2.6.3-3.9.4-1.3.2-2.5.2-3.9.2-3.2 0-5.7-.3-7.6-.9s-3.4-1.5-4.5-2.6c-1.1-1.2-1.8-2.6-2.2-4.3s-.6-3.8-.7-6v-32h-9.1v-9.1z" />
@@ -210,24 +212,25 @@
                                     </svg>
                                 </NuxtLink>
                             </div>
-
                         </div>
                     </div>
-                    <div class="hpp__deliveryPartnersWrap">
-                        <h2 class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100 mb-3">Our
-                            Delivery Partners</h2>
-                        <div class="logos__wrapper grid grid-cols-4 items-center">
-                            <div class="logo px-[15px]">
-                                <NuxtImg src="assets/images/USPS-logo.svg" alt="USPS Logo" loading="lazy" width="121"
-                                    height="20" class="w-full h-auto" />
-                            </div>
-                            <div class="logo px-[15px]">
-                                <NuxtImg src="assets/images/DHL-logo.svg" alt="DHL Logo" loading="lazy" width="121"
-                                    height="17" class="w-full h-auto" />
-                            </div>
-                            <div class="logo px-[15px]">
-                                <NuxtImg src="assets/images/Fedx-logo.svg" alt="Fedx Logo" loading="lazy" width="121"
-                                    height="34" class="w-full h-auto" />
+                    <div class="hpp__deliveryPartnersWrap flex justify-end">
+                        <div class="inline-block">
+                            <h2 class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100 mb-3">Our
+                                Delivery Partners</h2>
+                            <div class="logos__wrapper flex items-center -mx-[15px]">
+                                <div class="logo px-[15px] w-[151px]">
+                                    <NuxtImg src="assets/images/USPS-logo.svg" alt="USPS Logo" loading="lazy"
+                                        width="121" height="20" class="w-full h-auto" />
+                                </div>
+                                <div class="logo px-[15px] w-[151px]">
+                                    <NuxtImg src="assets/images/DHL-logo.svg" alt="DHL Logo" loading="lazy" width="121"
+                                        height="17" class="w-full h-auto" />
+                                </div>
+                                <div class="logo px-[15px] w-[151px]">
+                                    <NuxtImg src="assets/images/Fedx-logo.svg" alt="Fedx Logo" loading="lazy"
+                                        width="121" height="34" class="w-full h-auto" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -299,7 +302,7 @@
                         </ul>
                     </div>
                     <div class="flex w-2/3 justify-end">
-                        <ul class="flex items-center">
+                        <ul class="flex items-center font-description">
                             <li class="flex px-1 text-[14px]">&copy; Half Price Packaging</li>
                             <li class="flex px-1"><span class="inline-block w-[1px] h-[12px] bg-gray-300"></span></li>
                             <li class="flex px-1">

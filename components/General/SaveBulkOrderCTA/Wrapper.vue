@@ -20,9 +20,9 @@
                     </svg>
                     <div class="mx-auto w-full max-w-2xl text-left lg:mx-0 lg:flex-auto lg:py-10">
                         <span
-                            class="inline-block text-white text-[12px] font-semibold leading-none bg-[#ef4b5f] px-[25px] pt-[5px] pb-[8px] rounded-[50px] mb-1">Do
+                            class="font-description inline-block text-white text-[12px] font-semibold leading-none bg-[#ef4b5f] px-[25px] pt-[6px] pb-[6px] rounded-[50px] mb-1">Do
                             you need more this year?</span>
-                        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl"><span
+                        <h2 class="font-headings text-3xl font-bold tracking-tight text-white sm:text-4xl"><span
                                 class="text-[#ef4b5f]">Save 30%</span> on Bulk Orders
                         </h2>
                         <!-- <p class="mt-6 text-lg leading-8 text-gray-300">Ac euismod vel sit maecenas id pellentesque
@@ -30,7 +30,7 @@
                     </div>
                     <div class="flex items-center justify-center gap-x-6">
                         <NuxtLink to="#"
-                            class="flex items-center rounded-[50px] bg-[#ef4b5f] px-6 py-2.5 font-semibold text-white shadow-sm hover:bg-[#7157f8]">
+                            class="font-description flex items-center rounded-[50px] bg-[#ef4b5f] px-6 py-2.5 font-normal text-white shadow-sm hover:bg-[#7157f8]">
                             <span class="mr-3">Order Now</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5">

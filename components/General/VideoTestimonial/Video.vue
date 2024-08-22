@@ -8,8 +8,8 @@
             <source src="~/assets/video/testimonial-video.mp4" type="video/mp4" />
         </video>
         <div class="mobile__maskWrap absolute top-0 left-0">
-            <NuxtImg preload format="webp" src="assets/images/iphone-mockup.png" alt="Iphone Mockup Image"
-                class="w-full h-auto" />
+            <NuxtImg loading="lazy" format="webp" src="assets/images/iphone-mockup.png" alt="Iphone Mockup Image"
+                width="250" height="515" class="w-full h-auto" />
         </div>
     </div>
 </template>

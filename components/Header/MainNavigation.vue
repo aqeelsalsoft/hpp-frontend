@@ -7,8 +7,8 @@
                 <nav class="hpp__navWrapper py-[15px] px-[15px]">
                     <ul class="flex gap-x-[30px]">
                         <li>
-                            <NuxtLink to="/" class="flex items-center block">
-                                <span class="font-semibold text-[14px] leading-[20px]">Industries</span>
+                            <NuxtLink to="/" class="flex items-center block hover:text-[#ef4b5f]">
+                                <span class="font-description font-semibold text-[14px] leading-[20px]">Industries</span>
                                 <svg class="w-2 h-2 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -17,8 +17,8 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/" class="flex items-center block">
-                                <span class="font-semibold text-[14px] leading-[20px]">Categories</span>
+                            <NuxtLink to="/" class="flex items-center block hover:text-[#ef4b5f]">
+                                <span class="font-description font-semibold text-[14px] leading-[20px]">Categories</span>
                                 <svg class="w-2 h-2 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -26,15 +26,9 @@
                                 </svg>
                             </NuxtLink>
                         </li>
-                        <!-- <li>
-                            <NuxtLink to="/" class="flex items-center block"><span class="text-[14px] leading-[20px]">Materials</span></NuxtLink>
-                        </li> -->
                         <li>
-                            <NuxtLink to="/" class="flex items-center block"><span class="text-[14px] leading-[20px]">Client Success Stories</span></NuxtLink>
+                            <NuxtLink to="/" class="flex items-center block hover:text-[#ef4b5f]"><span class="font-description text-[14px] leading-[20px]">Client Success Stories</span></NuxtLink>
                         </li>
-                        <!-- <li>
-                            <NuxtLink to="/" class="flex items-center block"><span class="text-[14px] leading-[20px]">Primary Packaging</span></NuxtLink>
-                        </li> -->
                     </ul>
                 </nav>
                 <!-- <div class="hpp__headerBtnsWrap">

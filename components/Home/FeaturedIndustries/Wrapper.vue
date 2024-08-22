@@ -4,8 +4,8 @@
     <div class="hpp__productCatalogueWrapper pt-[50px] pb-[50px]">
         <div class="container mx-auto px-[15px]">
             <HomeFeaturedIndustriesHeader />
-            <HomeFeaturedIndustriesItems />
         </div>
+        <HomeFeaturedIndustriesItems />
     </div>
 </template>
 
