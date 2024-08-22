@@ -42,7 +42,8 @@ export default defineNuxtConfig({
 
   // Nuxt Image Module Config
   image: {
-    provider: 'ipx',
+    // provider: 'ipx',
+    provider: 'netlify',
     dir: "",
   },
 
