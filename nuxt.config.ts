@@ -42,7 +42,8 @@ export default defineNuxtConfig({
 
   // Nuxt Image Module Config
   image: {
-    dir: ""
+    dir: "",
+    provider: 'netlify',
   },
 
   googleFonts: {
