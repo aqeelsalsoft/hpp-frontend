@@ -1,7 +1,6 @@
 <template>
     <div class="hpp__homePageContentWrap">
         <HomeBannerWrapper />
-        <!-- <HomeTrustPilotBarWrapper /> -->
         <LazyHomeFeaturedIndustriesWrapper />
         <LazyGeneralSaveBulkOrderCTAWrapper />
         <LazyHomeFeaturedProductsWrapper />
