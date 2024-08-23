@@ -14,22 +14,22 @@
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-full-name" class="sr-only">Full Name</label>
                             <input type="text" placeholder="Full Name" id="ipf-full-name"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-phone" class="sr-only">Phone</label>
                             <input type="text" placeholder="Phone" id="ipf-phone"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-email" class="sr-only">Email</label>
                             <input type="email" placeholder="Email" id="ipf-email"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[50%] px-[10px] mb-[20px]">
                             <label for="ipf-box-type" class="sr-only">Box Type</label>
                             <select name="box-type" id="ipf-box-type"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Box Type</option>
                                 <option value="Straight Tuck Boxes">Straight Tuck Boxes</option>
                                 <option value="Reverse Tuck Boxes">Reverse Tuck Boxes</option>
@@ -92,7 +92,7 @@
                         <div class="relative basis-[50%] px-[10px] mb-[20px]">
                             <label for="ipf-material" class="sr-only">Materials</label>
                             <select name="material" id="ipf-material"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Material</option>
                                 <option value="Corrugated Stock">Corrugated Stock</option>
                                 <option value="Foil Metallic Cardstock">Foil Metallic Cardstock</option>
@@ -108,22 +108,22 @@
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-length" class="sr-only">Length</label>
                             <input type="text" placeholder="Length" id="ipf-length"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-width" class="sr-only">Width</label>
                             <input type="text" placeholder="Width" id="ipf-width"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-height" class="sr-only">Height</label>
                             <input type="text" placeholder="Height" id="ipf-height"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-dimension-unit" class="sr-only">Dimension Unit</label>
                             <select name="dimension-unit" id="ipf-dimension-unit"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Dimension Unit</option>
                                 <option value="Inch">Inch</option>
                                 <option value="CM">CM</option>
@@ -134,12 +134,12 @@
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-quantity" class="sr-only">Quantity</label>
                             <input type="text" placeholder="Quantity (min: 200)" id="ipf-quantity"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]" />
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
                         </div>
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-printing-sides" class="sr-only">Printing Sides</label>
                             <select name="dimension-unit" id="ipf-printing-sides"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Printing Sides</option>
                                 <option value="Outside Only">Outside Only</option>
                                 <option value="Inside Only">Inside Only</option>
@@ -149,7 +149,7 @@
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-card-thickness" class="sr-only">Card Thickness</label>
                             <select name="card-thickness" id="ipf-card-thickness"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Card Thickness</option>
                                 <option value="11 pt 230 GSM">11 pt 230 GSM</option>
                                 <option value="12 pt 250 GSM">12 pt 250 GSM</option>
@@ -170,7 +170,7 @@
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-coating-lamination" class="sr-only">Coating Lamination</label>
                             <select name="coating-lamination" id="ipf-coating-lamination"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Coating Lamination</option>
                                 <option value="Glossy lamination">Glossy lamination</option>
                                 <option value="Matte lamination">Matte lamination</option>
@@ -182,7 +182,7 @@
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">
                             <label for="ipf-extra-finishing" class="sr-only">Extra Finishing</label>
                             <select name="extra-finishing" id="ipf-extra-finishing"
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]">
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
                                 <option value="">Select Extra Finishing</option>
                                 <option value="Debossing">Debossing</option>
                                 <option value="Embossing">Embossing</option>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="relative basis-[60%] px-[10px] mb-[20px]">
                             <textarea
-                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-100 hover:border-gray-300 py-[10px] px-[17px]"
+                                class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]"
                                 placeholder="Your message" name="message" id="" cols="30" rows="5"></textarea>
                         </div>
                         <div class="relative basis-[40%] upload-container flex items-center justify-between w-full self-center px-[10px] mb-[20px]">

@@ -174,8 +174,7 @@
             <div class="footer__logosWrapper border-[#f2f2f2] border-y py-10 mb-6">
                 <div class="grid grid-cols-2 gap-3">
                     <div class="hpp__trustedByWrapper">
-                        <h2 class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100 mb-3">Trusted By
-                        </h2>
+                        <h2 class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100 mb-3">Where We’re Trusted</h2>
                         <div class="logos__wrapper flex items-center -mx-[15px]">
                             <div class="logo px-[15px]">
                                 <NuxtLink
