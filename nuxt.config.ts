@@ -43,8 +43,9 @@ export default defineNuxtConfig({
   // Nuxt Image Module Config
   image: {
     // provider: 'ipx',
-    provider: 'netlifyImageCdn',
-    dir: "",
+    provider: 'netlify',
+    domains: ['hppfrontend.netlify.app/'],
+    // dir: "",
   },
 
   googleFonts: {
