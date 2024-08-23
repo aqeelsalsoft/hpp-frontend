@@ -180,21 +180,21 @@
                             <div class="logo px-[15px]">
                                 <NuxtLink
                                     to="https://www.google.com/search?q=half+price+packaging&sxsrf=ALiCzsagnxfrnR5uzV0qnBby6qK5JPHlfA%3A1667214393089&source=hp&ei=OaxfY9e8A6aJlwTW4oD4Dg&iflsig=AJiK0e8AAAAAY1-6STHTn6Ls6EZe00ThMT0OmDApSXrJ&ved=0ahUKEwiXvabNqYr7AhWmxIUKHVYxAO8Q4dUDCAg&uact=5&oq=half+price+packaging&gs_lcp=Cgdnd3Mtd2l6EAMyCgguEMcBEK8BECcyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6BwgjEOoCECc6BAgjECc6CgguEMcBENEDEEM6BAgAEEM6BwguENQCEEM6CAgAELEDEIMBOggIABCABBCxAzoHCAAQyQMQQzoECC4QQzoHCAAQsQMQQzoKCAAQsQMQgwEQQzoKCC4QsQMQgwEQQzoICC4QgAQQsQM6CggAEIAEEIcCEBQ6BQguEIAEOgcIABCABBAKOgsILhCABBDHARCvAToICAAQgAQQyQM6CQgAEBYQHhDJAzoICAAQFhAeEApQAFjaFGDlFWgBcAB4A4ABmAWIAbgwkgEKMi0xMy41LjAuMpgBAKABAbABCg&sclient=gws-wiz">
-                                    <NuxtImg format="webp" src="assets/images/google-reviws-logo.png"
+                                    <NuxtImg format="webp" src="/images/google-reviws-logo.png"
                                         alt="Google Reviews Logo" loading="lazy" width="100" height="40"
                                         class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
                             <div class="logo px-[15px]">
                                 <NuxtLink to="https://www.reviews.io/company-reviews/store/halfpricepackaging-com">
-                                    <NuxtImg format="webp" src="assets/images/reviews-io-logo.png" alt="Reviews IO Logo"
+                                    <NuxtImg format="webp" src="/images/reviews-io-logo.png" alt="Reviews IO Logo"
                                         loading="lazy" width="100" height="40" class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
                             <div class="logo px-[15px]">
                                 <NuxtLink
                                     to="https://www.bbb.org/us/ca/fremont/profile/packaging-service/half-price-packaging-1116-920459#bbbonlineclick">
-                                    <NuxtImg format="webp" src="assets/images/bbb-logo.jpg" alt="BBB Logo"
+                                    <NuxtImg format="webp" src="/images/bbb-logo.jpg" alt="BBB Logo"
                                         loading="lazy" width="100" height="38" class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
@@ -220,15 +220,15 @@
                                 Delivery Partners</h2>
                             <div class="logos__wrapper flex items-center -mx-[15px]">
                                 <div class="logo px-[15px] w-[151px]">
-                                    <NuxtImg src="assets/images/USPS-logo.svg" alt="USPS Logo" loading="lazy"
+                                    <NuxtImg src="/images/USPS-logo.svg" alt="USPS Logo" loading="lazy"
                                         width="121" height="20" class="w-full h-auto" />
                                 </div>
                                 <div class="logo px-[15px] w-[151px]">
-                                    <NuxtImg src="assets/images/DHL-logo.svg" alt="DHL Logo" loading="lazy" width="121"
+                                    <NuxtImg src="/images/DHL-logo.svg" alt="DHL Logo" loading="lazy" width="121"
                                         height="17" class="w-full h-auto" />
                                 </div>
                                 <div class="logo px-[15px] w-[151px]">
-                                    <NuxtImg src="assets/images/Fedx-logo.svg" alt="Fedx Logo" loading="lazy"
+                                    <NuxtImg src="/images/Fedx-logo.svg" alt="Fedx Logo" loading="lazy"
                                         width="121" height="34" class="w-full h-auto" />
                                 </div>
                             </div>
@@ -240,7 +240,7 @@
                 <div class="flex">
                     <div class="flex w-2/3">
                         <NuxtLink to="/" class="block w-[180px] mr-10">
-                            <NuxtImg src="assets/images/hpp-logo.svg" alt="HPP Logo" loading="lazy" width="180"
+                            <NuxtImg src="/images/hpp-logo.svg" alt="HPP Logo" loading="lazy" width="180"
                                 height="48" class="w-full h-auto" />
                         </NuxtLink>
                         <ul class="flex items-center">

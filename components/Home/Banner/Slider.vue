@@ -37,8 +37,6 @@ onMounted(() => {
                 <div class="keen-slider__slide w-full">
                     <div class="slide__wrap relative w-full">
                         <div class="slide__imageWrap">
-                            <!-- <NuxtImg preload format="webp" src="assets/images/home-banner/banner-slider-image.png"
-                                alt="Home Banner Image" width="1920" height="800" class="w-full h-auto" /> -->
                             <NuxtImg preload format="webp" src="/images/home-banner/banner-slider-image.png"
                                 alt="Home Banner Image" width="1920" height="800" class="w-full h-auto" />
                         </div>

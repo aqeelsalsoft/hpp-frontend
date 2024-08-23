@@ -3,7 +3,7 @@
 <template>
     <div class="flex items-center h-screen bg-[#333333] relative overflow-hidden">
         <div class="thumb__wrapper w-full h-full relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[rgba(0,0,0,0.6)]">
-            <NuxtImg format="webp" src="assets/images/sustainability-grid/grid1.jpg" alt="Sustainability Grid Thumbnail"
+            <NuxtImg format="webp" src="/images/sustainability-grid/grid1.jpg" alt="Sustainability Grid Thumbnail"
                 loading="lazy" class="w-full h-full object-cover" />
         </div>
         <div class="Inner absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full">

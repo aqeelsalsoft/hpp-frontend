@@ -51,7 +51,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/cosmetics-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/cosmetics-boxes.jpg"
                                 alt="Cosmetic Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -73,7 +73,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/mailer-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/mailer-boxes.jpg"
                                 alt="Mailer Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -94,7 +94,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/candle-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/candle-boxes.jpg"
                                 alt="Candle Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -115,7 +115,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/soap-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/soap-boxes.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -136,7 +136,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/display-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/display-boxes.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -157,7 +157,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/beverage-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/beverage-boxes.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -178,7 +178,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="assets/images/home-featured-industries/ecofriendly-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-industries/ecofriendly-boxes.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>

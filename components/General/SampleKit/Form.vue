@@ -10,7 +10,7 @@
             </div>
             <div class="w-full bg-white max-w-[880px] shadow-2xl sm:rounded-3xl flex overflow-hidden">
                 <div class="thumbnail__wrap relative overflow-hidden w-[350px]">
-                    <NuxtImg format="webp" src="assets/images/sample-kit.jpg" alt="Sample Kit Thumbnail" loading="lazy" width="350"
+                    <NuxtImg format="webp" src="/images/sample-kit.jpg" alt="Sample Kit Thumbnail" loading="lazy" width="350"
                         height="457" class="absolute w-full h-full object-cover" />
                 </div>
                 <div class="form__wrap w-[calc(100%_-_350px)] p-[30px]">
@@ -91,7 +91,7 @@
                                 </select>
                             </div>
                             <div class="flex items-end justify-center basis-full px-[5px] mb-[10px]">
-                                <NuxtImg format="webp" src="assets/images/recaptcha-placeholder.png" alt="Sample Kit Thumbnail" loading="lazy" width="350" height="88" class="w-[350px] h-auto" />
+                                <NuxtImg format="webp" src="/images/recaptcha-placeholder.png" alt="Sample Kit Thumbnail" loading="lazy" width="350" height="88" class="w-[350px] h-auto" />
                             </div>
                             <div class="flex items-end justify-center basis-full px-[5px]">
                                 <button
