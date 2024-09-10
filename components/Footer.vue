@@ -180,21 +180,21 @@
                                 <NuxtLink
                                     to="https://www.google.com/search?q=half+price+packaging&sxsrf=ALiCzsagnxfrnR5uzV0qnBby6qK5JPHlfA%3A1667214393089&source=hp&ei=OaxfY9e8A6aJlwTW4oD4Dg&iflsig=AJiK0e8AAAAAY1-6STHTn6Ls6EZe00ThMT0OmDApSXrJ&ved=0ahUKEwiXvabNqYr7AhWmxIUKHVYxAO8Q4dUDCAg&uact=5&oq=half+price+packaging&gs_lcp=Cgdnd3Mtd2l6EAMyCgguEMcBEK8BECcyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6BwgjEOoCECc6BAgjECc6CgguEMcBENEDEEM6BAgAEEM6BwguENQCEEM6CAgAELEDEIMBOggIABCABBCxAzoHCAAQyQMQQzoECC4QQzoHCAAQsQMQQzoKCAAQsQMQgwEQQzoKCC4QsQMQgwEQQzoICC4QgAQQsQM6CggAEIAEEIcCEBQ6BQguEIAEOgcIABCABBAKOgsILhCABBDHARCvAToICAAQgAQQyQM6CQgAEBYQHhDJAzoICAAQFhAeEApQAFjaFGDlFWgBcAB4A4ABmAWIAbgwkgEKMi0xMy41LjAuMpgBAKABAbABCg&sclient=gws-wiz">
                                     <NuxtImg format="webp" src="/images/google-reviws-logo.png"
-                                        alt="Google Reviews Logo" loading="lazy" width="100" height="40"
+                                        alt="Google Reviews Logo" loading="lazy" width="145" height="58"
                                         class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
                             <div class="logo">
                                 <NuxtLink to="https://www.reviews.io/company-reviews/store/halfpricepackaging-com">
                                     <NuxtImg format="webp" src="/images/reviews-io-logo.png" alt="Reviews IO Logo"
-                                        loading="lazy" width="100" height="40" class="w-full h-auto" />
+                                        loading="lazy" width="145" height="58" class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
                             <div class="logo">
                                 <NuxtLink
                                     to="https://www.bbb.org/us/ca/fremont/profile/packaging-service/half-price-packaging-1116-920459#bbbonlineclick">
                                     <NuxtImg format="webp" src="/images/bbb-logo.png" alt="BBB Logo"
-                                        loading="lazy" width="100" height="38" class="w-full h-auto" />
+                                        loading="lazy" width="145" height="58" class="w-full h-auto" />
                                 </NuxtLink>
                             </div>
                             <div class="logo">
