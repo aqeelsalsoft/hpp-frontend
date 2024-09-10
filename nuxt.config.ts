@@ -5,7 +5,6 @@ import { defineNuxtModule } from 'nuxt';
 import { resolve } from "path";
 export default defineNuxtConfig({
 
-  compatibilityDate:['2024-09-06'],
   // App Default Config
   app: {
     head: {
@@ -15,7 +14,9 @@ export default defineNuxtConfig({
       title: 'Half Price Packaging',  // Set your default page title here
     }
   },
-
+  
+  //compatibilityDate:['2024-09-06'],
+  
   // Alias Declaration
   alias: {
     "@": resolve(__dirname, "/"),
@@ -63,7 +64,7 @@ export default defineNuxtConfig({
   // Swiper Js Config
   swiper: {
     // Global swiper options can be configured here
-    modules: ['autoplay', 'effect-coverflow'],
+    //modules: ['autoplay', 'effect-coverflow'],
   },
 
 })
