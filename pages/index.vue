@@ -1,12 +1,15 @@
 <template>
     <div class="hpp__homePageContentWrap">
         <HomeBannerWrapper />
+        <HomeReviewLogosWrapper />
         <LazyHomeFeaturedIndustriesWrapper />
         <LazyGeneralSaveBulkOrderCTAWrapper />
         <LazyHomeFeaturedProductsWrapper />
-        <LazyHomeInstantPricesWrapper />
+        <LazyGeneralInstantPricesWrapper />
         <LazyGeneralVideoTestimonialWrapper />
         <LazyGeneralGreenInitiativeWrapper />
+        <LazyGeneralClientSuccessStoriesWrapper />
+        <LazyGeneralFaqWrapper />
         <LazyGeneralSampleKitWrapper />
     </div>
 </template>

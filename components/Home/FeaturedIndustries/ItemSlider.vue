@@ -17,9 +17,11 @@ const current = ref(0);
 onMounted(() => {
     if (slider.value) {
         keenSlider = new KeenSlider(slider.value, {
-            mode: "free-snap",
+            // mode: "free-snap",
+            loop: true,
             slides: {
-                perView: 4,
+                origin: "center",
+                perView: 5,
                 spacing: 10,
             },
             slideChanged: (s) => {
@@ -44,7 +46,8 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <div class="hpp__industryCarouselWrapper px-[120px] relative overflow-hidden">
+    <!-- <div class="hpp__industryCarouselWrapper px-[120px] relative overflow-hidden"> -->
+    <div class="hpp__industryCarouselWrapper relative overflow-hidden">
         <div ref="slider" class="keen-slider !hidden sm:!flex !overflow-visible overflow-y-hidden grow-0">
             <div class="keen-slider__slide !overflow-visible">
                 <div class="pt-[5px] pb-[30px]">
@@ -196,7 +199,7 @@ onBeforeUnmount(() => {
                 </div>
             </div>
         </div>
-        <button v-if="!isFirstSlide" @click="keenSlider?.prev()" aria-label="previous"
+        <button @click="keenSlider?.prev()" aria-label="previous"
             class="rounded-full shadow-icon-button border-2 border-transparent bg-white transition-all hover:bg-[#7157f8] active:border-core-purple-90 absolute top-2/4 -translate-y-1/2 left-[2rem] group"><svg
                 stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
                 class="w-6 h-6 m-2 group-hover:fill-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -204,7 +207,7 @@ onBeforeUnmount(() => {
                     d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
                     clip-rule="evenodd"></path>
             </svg></button>
-        <button v-if="!isLastSlide" @click="keenSlider?.next()" aria-label="next"
+        <button @click="keenSlider?.next()" aria-label="next"
             class="rounded-full shadow-icon-button border-2 border-transparent bg-white transition-all hover:bg-[#7157f8] active:border-core-purple-90 absolute top-2/4 -translate-y-1/2 right-[2rem] group"><svg
                 stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
                 class="w-6 h-6 m-2 group-hover:fill-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

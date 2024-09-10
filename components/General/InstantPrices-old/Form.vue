@@ -8,7 +8,7 @@
                 <p class="font-description text-[#212529] text-[16px] leading-[24px]">Fill out the form to get in touch with our
                     dedicated packaging consultant</p>
             </div>
-            <div class="p-[40px] w-full bg-white max-w-[880px] shadow-2xl sm:rounded-3xl">
+            <div class="p-[40px] w-full bg-white max-w-[880px] shadow-slate-600 shadow-2xl sm:rounded-3xl">
                 <form id="hpp__instantPricesForm" class="mb-0">
                     <div class="flex flex-wrap ml-[-10px] mr-[-10px]">
                         <div class="relative basis-[33.33%] px-[10px] mb-[20px]">

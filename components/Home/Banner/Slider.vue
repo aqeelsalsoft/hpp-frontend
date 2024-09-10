@@ -10,6 +10,7 @@ const current = ref(0);
 // Initialize the KeenSlider instance
 const [mainSlider, keenSlider] = useKeenSlider({
     initial: current.value,
+    loop: true,
     slideChanged: (s) => {
         current.value = s.track.details.rel;
     },

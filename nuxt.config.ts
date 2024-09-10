@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// nuxt.config.ts
+import { defineNuxtModule } from 'nuxt';
 import { resolve } from "path";
 export default defineNuxtConfig({
 
+  compatibilityDate:['2024-09-06'],
   // App Default Config
   app: {
     head: {
@@ -38,21 +42,28 @@ export default defineNuxtConfig({
   },
 
   // Modules Declarations
-  modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
+  modules: ["@nuxt/image", "@nuxtjs/google-fonts", '@nuxt/ui'],
 
   // Nuxt Image Module Config
   image: {
-    // provider: 'ipx',
-    provider: 'netlify',
-    domains: ['hppfrontend.netlify.app/'],
+    provider: 'ipx',
+    // provider: 'netlify',
+    // domains: ['hppfrontend.netlify.app/'],
     // dir: "",
   },
 
+  // Importing Google Fonts
   googleFonts: {
     families: {
       Poppins: [100, 200, 300, 400, 500, 600, 700, 800, 900],
       Quicksand: [300, 400, 500, 600, 700],
     }
-  }
+  },
+
+  // Swiper Js Config
+  swiper: {
+    // Global swiper options can be configured here
+    modules: ['autoplay', 'effect-coverflow'],
+  },
 
 })
