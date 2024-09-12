@@ -191,7 +191,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb1.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/designing-limited-edition-packaging.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -207,8 +207,7 @@
                                 </ul>
                             </div>
                             <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
-                                <NuxtLink to="#">A Guide to
-                                    Cannabis Seed Packaging: Everything You Need to Know</NuxtLink>
+                                <NuxtLink to="#">Designing Limited Edition Packaging: Essential Tips for Impactful Results</NuxtLink>
                             </h2>
                             <NuxtLink to="#"
                                 class="group text-[#ef4b5f] inline-flex items-center">
@@ -226,7 +225,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb2.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/pr-boxes.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -242,7 +241,7 @@
                                 </ul>
                             </div>
                             <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
-                                <NuxtLink to="#">Custom Shape Gift Boxes With Unique Designs for Special Occasions</NuxtLink>
+                                <NuxtLink to="#">How to Maximize the Benefits of PR Boxes in Your Marketing Strategy</NuxtLink>
                             </h2>
                             <NuxtLink to="#"
                                 class="group text-[#ef4b5f] inline-flex items-center">
@@ -260,7 +259,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb3.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/inspiring-yellow-packaging-ideas.jpg" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -276,7 +275,7 @@
                                 </ul>
                             </div>
                             <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
-                                <NuxtLink to="#">How Corrugated Bins Are Revolutionizing E-commerce Packaging: Key Applications</NuxtLink>
+                                <NuxtLink to="#">10 Inspiring Packaging Ideas to Go Yellow This Season</NuxtLink>
                             </h2>
                             <NuxtLink to="#"
                                 class="group text-[#ef4b5f] inline-flex items-center">

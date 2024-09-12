@@ -53,13 +53,13 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/cosmetics-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/client-success-stories/olive-knives.webp"
                                 alt="Cosmetic Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">How Do Olive Knives Get the Functional Luxury Packaging for Their Survival Gear</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Half Price Packaging broadens the scope of sustainable packaging solutions including not only cost reduction efforts but also innovation. We use a clear strategic...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Olive Knives <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">How Do Olive Knives Get the Functional Luxury Packaging for Their Survival Gear</p>
                         </div>
                     </NuxtLink>
                 </div>
@@ -69,13 +69,13 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/mailer-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/client-success-stories/eight-plus-face-cream.jpg"
                                 alt="Mailer Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Packaging with Bold Colors & Luxury Vibes - All That 8+ Face Cream for Men's Needed</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">For Half Price Packaging, business is all about being true to our clients, trying new ideas, and focusing on the essentials of packaging. Our unwavering commitment...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">8+ Face Cream <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Packaging with Bold Colors & Luxury Vibes - All That 8+ Face Cream for Men's Needed</p>
                         </div>
                     </NuxtLink>
                 </div>
@@ -85,13 +85,13 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/candle-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/client-success-stories/intoxicated-cosmetics.jpg"
                                 alt="Candle Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics Meeting Skincare Revolution with Our Packaging Innovation</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">At Half Price Packaging, we pride ourselves on delivering customized packaging solutions that cater to diverse business needs. One of our recent collaborations was with...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Intoxicated Cosmetics Meeting Skincare Revolution with Our Packaging Innovation</p>
                         </div>
                     </NuxtLink>
                 </div>
@@ -101,13 +101,13 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/soap-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/client-success-stories/mermaid-cove.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Mermaid Cove and Half Price Packaging: A Green Style Collaboration</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">This client story is about another successful collaboration that exemplifies how teaming up can make big dreams happen. “Mermaid Cove” is an eco-friendly...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Mermaid Cove <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Mermaid Cove and Half Price Packaging: A Green Style Collaboration</p>
                         </div>
                     </NuxtLink>
                 </div>
@@ -117,13 +117,13 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/display-boxes.jpg"
-                                alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/olive-knives.webp"
+                                alt="Cosmetic Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">How Do Olive Knives Get the Functional Luxury Packaging for Their Survival Gear</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Half Price Packaging broadens the scope of sustainable packaging solutions including not only cost reduction efforts but also innovation. We use a clear strategic...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Olive Knives <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">How Do Olive Knives Get the Functional Luxury Packaging for Their Survival Gear</p>
                         </div>
                     </NuxtLink>
                 </div>
@@ -133,13 +133,13 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/beverage-boxes.jpg"
-                                alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/eight-plus-face-cream.jpg"
+                                alt="Mailer Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Packaging with Bold Colors & Luxury Vibes - All That 8+ Face Cream for Men's Needed</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">For Half Price Packaging, business is all about being true to our clients, trying new ideas, and focusing on the essentials of packaging. Our unwavering commitment...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">8+ Face Cream <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Packaging with Bold Colors & Luxury Vibes - All That 8+ Face Cream for Men's Needed</p>
                         </div>
                     </NuxtLink>
                 </div>
@@ -149,13 +149,29 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/ecofriendly-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/client-success-stories/intoxicated-cosmetics.jpg"
+                                alt="Candle Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                                class="w-full h-auto" />
+                        </div>
+                        <div class="desc__wrap py-[10px]">
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Intoxicated Cosmetics Meeting Skincare Revolution with Our Packaging Innovation</p>
+                        </div>
+                    </NuxtLink>
+                </div>
+            </div>
+            <div class="keen-slider__slide !overflow-visible">
+                <div class="pt-[5px] pb-[30px]">
+                    <NuxtLink to="#"
+                        class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
+                        <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
+                            <NuxtImg format="webp" src="/images/client-success-stories/mermaid-cove.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics Meeting Skincare Revolution with Our Packaging Innovation</h3>
-                            <p class="font-description text-acai text-[12px] lg:text-[14px]">At Half Price Packaging, we pride ourselves on delivering customized packaging solutions that cater to diverse business needs. One of our recent collaborations...</p>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Mermaid Cove <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP</h3>
+                            <p class="font-description text-acai text-[12px] lg:text-[14px]">Mermaid Cove and Half Price Packaging: A Green Style Collaboration</p>
                         </div>
                     </NuxtLink>
                 </div>

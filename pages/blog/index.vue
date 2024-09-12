@@ -39,7 +39,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb1.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/cannabis-seed-packaging.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -74,7 +74,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb2.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/custom-gift-boxes.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -108,7 +108,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb3.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/corrugated-bins.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -142,7 +142,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb4.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/pr-box.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -176,7 +176,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb5.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/designing-limited-edition-packaging.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -210,7 +210,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb6.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/pr-boxes.webp" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -244,75 +244,7 @@
                     <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
                         <div class="thumb__wrap">
                             <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb7.svg" alt="Banner Box By Material"
-                                    loading="lazy" width="420" height="245"
-                                    class="w-full h-full object-cover absolute top-0 left-0" />
-                            </NuxtLink>
-                        </div>
-                        <div class="desc__wrap px-[30px] pt-[30px] pb-[30px]">
-                            <div class="blog__metaWrap">
-                                <ul class="flex gap-[20px] mb-[20px]">
-                                    <li>
-                                        <span
-                                            class="font-description hidden whitespace-nowrap rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold leading-6 text-slate-700 lg:block">Knowledge
-                                            Base</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
-                                <NuxtLink to="#">How Do Olive Knives Get the Functional Luxury Packaging for Their Survival Gear</NuxtLink>
-                            </h2>
-                            <NuxtLink to="#"
-                                class="group text-[#ef4b5f] inline-flex items-center">
-                                <span class="font-description text-[16px]">Read More</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="2.5" stroke="currentColor" class="size-4 ml-[10px] transition-all duration-400 ease-in-out group-hover:ml-[15px]">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-
-                            </NuxtLink>
-                        </div>
-                    </article>
-
-                    <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
-                        <div class="thumb__wrap">
-                            <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb8.svg" alt="Banner Box By Material"
-                                    loading="lazy" width="420" height="245"
-                                    class="w-full h-full object-cover absolute top-0 left-0" />
-                            </NuxtLink>
-                        </div>
-                        <div class="desc__wrap px-[30px] pt-[30px] pb-[30px]">
-                            <div class="blog__metaWrap">
-                                <ul class="flex gap-[20px] mb-[20px]">
-                                    <li>
-                                        <span
-                                            class="font-description hidden whitespace-nowrap rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold leading-6 text-slate-700 lg:block">Knowledge
-                                            Base</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
-                                <NuxtLink to="#">What is a Dieline? A Guide for Business Owners Exploring Custom Packaging</NuxtLink>
-                            </h2>
-                            <NuxtLink to="#"
-                                class="group text-[#ef4b5f] inline-flex items-center">
-                                <span class="font-description text-[16px]">Read More</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="2.5" stroke="currentColor" class="size-4 ml-[10px] transition-all duration-400 ease-in-out group-hover:ml-[15px]">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                </svg>
-
-                            </NuxtLink>
-                        </div>
-                    </article>
-
-                    <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
-                        <div class="thumb__wrap">
-                            <NuxtLink to="#" class="block relative pt-[55%]">
-                                <NuxtImg format="webp" src="/images/blog/post-thumb9.svg" alt="Banner Box By Material"
+                                <NuxtImg format="webp" src="/images/blog/inspiring-yellow-packaging-ideas.jpg" alt="Banner Box By Material"
                                     loading="lazy" width="420" height="245"
                                     class="w-full h-full object-cover absolute top-0 left-0" />
                             </NuxtLink>
@@ -329,6 +261,74 @@
                             </div>
                             <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
                                 <NuxtLink to="#">10 Inspiring Packaging Ideas to Go Yellow This Season</NuxtLink>
+                            </h2>
+                            <NuxtLink to="#"
+                                class="group text-[#ef4b5f] inline-flex items-center">
+                                <span class="font-description text-[16px]">Read More</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="size-4 ml-[10px] transition-all duration-400 ease-in-out group-hover:ml-[15px]">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+
+                            </NuxtLink>
+                        </div>
+                    </article>
+
+                    <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
+                        <div class="thumb__wrap">
+                            <NuxtLink to="#" class="block relative pt-[55%]">
+                                <NuxtImg format="webp" src="/images/blog/garment-packaging.jpg" alt="Banner Box By Material"
+                                    loading="lazy" width="420" height="245"
+                                    class="w-full h-full object-cover absolute top-0 left-0" />
+                            </NuxtLink>
+                        </div>
+                        <div class="desc__wrap px-[30px] pt-[30px] pb-[30px]">
+                            <div class="blog__metaWrap">
+                                <ul class="flex gap-[20px] mb-[20px]">
+                                    <li>
+                                        <span
+                                            class="font-description hidden whitespace-nowrap rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold leading-6 text-slate-700 lg:block">Knowledge
+                                            Base</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
+                                <NuxtLink to="#">Inspirational Garment Packaging Ideas: 6 Best Designs</NuxtLink>
+                            </h2>
+                            <NuxtLink to="#"
+                                class="group text-[#ef4b5f] inline-flex items-center">
+                                <span class="font-description text-[16px]">Read More</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="size-4 ml-[10px] transition-all duration-400 ease-in-out group-hover:ml-[15px]">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+
+                            </NuxtLink>
+                        </div>
+                    </article>
+
+                    <article class="blog__item rounded-[30px] overflow-hidden bg-white border border-[#e5e5e5] shadow-[-1px_3px_10px_0_rgb(0_0_0_/_6%)]">
+                        <div class="thumb__wrap">
+                            <NuxtLink to="#" class="block relative pt-[55%]">
+                                <NuxtImg format="webp" src="/images/blog/clothing-business.webp" alt="Banner Box By Material"
+                                    loading="lazy" width="420" height="245"
+                                    class="w-full h-full object-cover absolute top-0 left-0" />
+                            </NuxtLink>
+                        </div>
+                        <div class="desc__wrap px-[30px] pt-[30px] pb-[30px]">
+                            <div class="blog__metaWrap">
+                                <ul class="flex gap-[20px] mb-[20px]">
+                                    <li>
+                                        <span
+                                            class="font-description hidden whitespace-nowrap rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold leading-6 text-slate-700 lg:block">Knowledge
+                                            Base</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2 class="font-headings text-[20px] leading-[24px] font-bold mt-0 mb-[20px]">
+                                <NuxtLink to="#">Essential Packaging Ideas for Clothing Business | Guide for Fashion Entrepreneurs</NuxtLink>
                             </h2>
                             <NuxtLink to="#"
                                 class="group text-[#ef4b5f] inline-flex items-center">

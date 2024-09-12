@@ -20,7 +20,6 @@ onMounted(() => {
             // mode: "free-snap",
             loop: true,
             slides: {
-                origin: "center",
                 perView: 5,
                 spacing: 10,
             },
@@ -54,7 +53,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/cosmetics-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/custom-printed-auto-lock-boxes.jpg"
                                 alt="Cosmetic Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -64,8 +63,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Cosmetic
-                                Boxes</h3>
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Auto Lock boxes</h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>
                     </NuxtLink>
@@ -76,7 +74,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/mailer-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/watch-boxes.jpg"
                                 alt="Mailer Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -86,7 +84,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Mailer Boxes</h3>
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Magnetic Closure Boxes with inserts</h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>
                     </NuxtLink>
@@ -97,7 +95,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/candle-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/tuck-top-mailer-boxes.jpg"
                                 alt="Candle Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -107,7 +105,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Candle Boxes</h3>
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Mailer Boxes with Inserts</h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>
                     </NuxtLink>
@@ -118,7 +116,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/soap-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/best-double-wall-coffee-cups.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -128,7 +126,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Soap Boxes</h3>
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Double Wall Coffee Cups</h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>
                     </NuxtLink>
@@ -139,7 +137,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/display-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/eco-friendly-packaging-wholesale.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -149,7 +147,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Display Boxes</h3>
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Eco-Friendly Boxes</h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>
                     </NuxtLink>
@@ -160,7 +158,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/beverage-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/wine-boxes-for-sale.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -170,7 +168,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Beverage Boxes</h3>
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Wine Boxes</h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>
                     </NuxtLink>
@@ -181,7 +179,7 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/home-featured-industries/ecofriendly-boxes.jpg"
+                            <NuxtImg format="webp" src="/images/home-featured-products/custom-magnetic-closure-boxes.jpg"
                                 alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
                         </div>
@@ -191,7 +189,7 @@ onBeforeUnmount(() => {
                                 <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                     weeks</span>
                             </div>
-                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Eco-Friendly Boxes
+                            <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Metalized Printed Boxes
                             </h3>
                             <span class="font-description text-acai text-[13px] lg:text-[15px]">Request a Quote</span>
                         </div>

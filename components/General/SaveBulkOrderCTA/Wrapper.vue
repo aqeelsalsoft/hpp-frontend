@@ -18,14 +18,15 @@
                             </radialGradient>
                         </defs>
                     </svg>
-                    <div class="mx-auto w-full max-w-2xl text-left lg:mx-0 lg:flex-auto lg:py-10">
+                    <div class="mx-auto w-full max-w-2xl text-left lg:mx-0 lg:flex-auto lg:py-6">
                         <!-- class="font-description inline-block text-white text-[12px] font-semibold leading-none bg-[#ef4b5f] px-[25px] pt-[6px] pb-[6px] rounded-[50px] mb-1">Do -->
-                        <span
-                            class="font-description inline-block text-white text-[12px] font-semibold leading-none px-0 pt-[6px] pb-[6px] rounded-[50px] mb-1">Do
-                            you need more this year?</span>
-                        <h2 class="font-headings text-3xl font-bold tracking-tight text-white sm:text-4xl"><span
-                                class="text-[#ef4b5f]">Save 30%</span> on Bulk Orders
-                        </h2>
+                        <div class="flex items-center">
+                            <span
+                                class="font-description inline-block text-white text-[14px] font-semibold leading-none px-0 rounded-[50px] mr-[20px]">Need more this year?</span>
+                            <h2 class="font-headings text-3xl font-bold tracking-tight text-white sm:text-4xl"><span
+                                    class="text-[#ef4b5f]">Save 30%</span> on Bulk Orders
+                            </h2>
+                        </div>
                         <!-- <p class="mt-6 text-lg leading-8 text-gray-300">Ac euismod vel sit maecenas id pellentesque
                             eu sed consectetur. Malesuada adipiscing sagittis vel nulla.</p> -->
                     </div>

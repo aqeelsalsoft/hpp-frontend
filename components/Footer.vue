@@ -152,20 +152,19 @@
                 <div class="widget__wrapper">
                     <div class="title mb-3">
                         <NuxtLink to="#"
-                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">My
-                            Account</NuxtLink>
+                            class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">Quick Links</NuxtLink>
                     </div>
                     <ul class="font-description">
                         <li class="mb-[5px]">
-                            <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">My Orders
+                            <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Terms & Conditions
                             </NuxtLink>
                         </li>
                         <li class="mb-[5px]">
-                            <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Track Order
+                            <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Privacy Policy
                             </NuxtLink>
                         </li>
                         <li class="mb-[5px]">
-                            <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">My Profile
+                            <NuxtLink to="#" class="block text-[14px] leading-[24px] hover:text-pitaya-100">Refund Cancellation Policy
                             </NuxtLink>
                         </li>
                     </ul>
@@ -216,7 +215,7 @@
                     <div class="hpp__deliveryPartnersWrap flex justify-end">
                         <div class="inline-block">
                             <h2 class="text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100 mb-3">Our
-                                Delivery Partners</h2>
+                                Logistics Partners</h2>
                             <div class="logos__wrapper flex items-center -mx-[15px]">
                                 <div class="logo px-[15px] w-[151px]">
                                     <NuxtImg src="/images/USPS-logo.svg" alt="USPS Logo" loading="lazy"

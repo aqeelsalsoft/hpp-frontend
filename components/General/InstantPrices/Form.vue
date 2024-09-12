@@ -4,7 +4,7 @@
     <div class="hpp__instantFormWrapper">
         <div class="flex flex-wrap items-center justify-center">
             <div class="text-center basis-full mb-[30px]">
-                <h3 class="font-headings text-[#212529] text-[36px] leading-[40px] font-bold mb-[5px] mb-3">Get Instant Prices</h3>
+                <h3 class="font-headings text-[#212529] text-[36px] leading-[40px] font-bold mb-[5px] mb-3">Get The Most Accurate Quotation</h3>
                 <p class="font-description text-[#212529] text-[16px] leading-[24px]">Fill out the form to get in touch with our
                     dedicated packaging consultant</p>
             </div>

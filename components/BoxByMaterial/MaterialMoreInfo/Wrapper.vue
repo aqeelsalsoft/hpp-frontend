@@ -17,7 +17,7 @@
                     <div class="btn__wrapper">
                         <NuxtLink to="#"
                             class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                            Explore More</NuxtLink>
+                            Buy Kraft Stock Boxes</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                     <div class="btn__wrapper">
                         <NuxtLink to="#"
                             class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                            Explore More</NuxtLink>
+                            Buy Corrugated Stock Boxes</NuxtLink>
                     </div>
                 </div>
                 <div class="thumb__wrapper basis-[45%] px-[15px]">
@@ -53,7 +53,7 @@
                     <div class="btn__wrapper">
                         <NuxtLink to="#"
                             class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                            Explore More</NuxtLink>
+                            Buy Metallic Card Stock Packaging</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                     <div class="btn__wrapper">
                         <NuxtLink to="#"
                             class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                            Explore More</NuxtLink>
+                            Buy Rigid Boxes</NuxtLink>
                     </div>
                 </div>
                 <div class="thumb__wrapper basis-[45%] px-[15px]">
@@ -89,7 +89,7 @@
                     <div class="btn__wrapper">
                         <NuxtLink to="#"
                             class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                            Explore More</NuxtLink>
+                            Buy Cardboard Box Packaging</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -101,13 +101,31 @@
                     <div class="btn__wrapper">
                         <NuxtLink to="#"
                             class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                            Explore More</NuxtLink>
+                            Buy Bux Board Packaging</NuxtLink>
                     </div>
                 </div>
                 <div class="thumb__wrapper basis-[45%] px-[15px]">
                     <div class="thumb__wrap rounded-[32px] overflow-hidden">
                         <NuxtImg format="webp" src="/images/products/kraft-soap-boxes/why-choose-us2.png"
                             alt="Why Choose Us Thumbnail" loading="lazy" width="556" height="363" fit="cover" class="w-full h-auto" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center mb-[100px]">
+                <div class="thumb__wrapper basis-[45%] px-[15px]">
+                    <div class="thumb__wrap rounded-[32px] overflow-hidden">
+                        <NuxtImg format="webp" src="/images/products/kraft-soap-boxes/why-choose-us1.png"
+                            alt="Why Choose Us Thumbnail" loading="lazy" width="556" height="363" fit="cover" class="w-full h-auto" />
+                    </div>
+                </div>
+                <div class="desc__wrapper basis-[55%] pl-[70px] pr-[15px]">
+                    <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">PVC Packaging</h2>
+                    <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">Being a staple material for shipping boxes, retail packaging, gift boxes, or product displays, cardboard promises adaptability coupled with resilience and sustainability. From protecting your products with its innate strength to enhancing the box’s functionalities with its customizable features, cardboard box packaging allows brands to ensure that products arrive at the desired destination in mint condition. You can have it made with die-cut designs, corrugation, luxurious finish, window, or inserts – serving as a powerful branding tool. Half Price Packaging engineers each box to perfection with an accurate fit, offering a multitude of perks for businesses looking to leave a positive impression.</p>
+                    <div class="btn__wrapper">
+                        <NuxtLink to="#"
+                            class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
+                            Buy PVC Packaging</NuxtLink>
                     </div>
                 </div>
             </div>

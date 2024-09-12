@@ -74,6 +74,7 @@ const items = [{
                     </div>
                 </div>
                 <div class="faq__wrapper basis-1/2">
+                    <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-[30px]">Frequently Asked <span class="text-[#ef4b5f]">Questions</span></h2>
                     <UAccordion :items="items">
                         <template #default="{ item, index, open }">
                             <UButton color="gray" variant="soft" size="xl" class="mb-[10px]">

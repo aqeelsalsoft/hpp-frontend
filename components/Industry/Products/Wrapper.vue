@@ -219,7 +219,7 @@ const backgroundStyles = computed(() => {
                     </div>
 
                 </div>
-                <div class="grid grid-cols-3 gap-[30px] w-[calc(100%_-_300px)]">
+                <div class="grid grid-cols-4 gap-[30px] w-[calc(100%_-_300px)]">
                     <div class="item__wrap">
                         <NuxtLink to="#"
                             class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
@@ -230,11 +230,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
-                                    <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
+                                    class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
+                                    <span>Min. 5000 units</span><span class="text-[18px] px-1">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Soap
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Soap
                                     Sleeves</h3>
                             </div>
                         </NuxtLink>
@@ -249,11 +249,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
-                                    <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
+                                    class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
+                                    <span>Min. 5000 units</span><span class="text-[18px] px-1">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Kraft
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Kraft
                                     Soap Boxes</h3>
                             </div>
                         </NuxtLink>
