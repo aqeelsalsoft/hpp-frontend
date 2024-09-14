@@ -117,7 +117,7 @@
                             <NuxtImg format="webp" src="/images/shapes-and-styles/sleeve-boxes-thumbnail.jpg"
                                 alt="Sleeve Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto" />
-                            <NuxtImg format="webp" src="/images/shapes-and-styles/sleeve-boxes-thumbnail-alt.jpg"
+                            <NuxtImg format="webp" src="/images/shapes-and-styles/sleeve-boxes-thumbnail-alt.png"
                                 alt="Sleeve Boxes Thumbnail Alt" loading="lazy" fit="cover" width="336" height="336"
                                 class="w-full h-auto absolute top-0 left-0 transition-all ease-in-out duration-700 opacity-0 group-hover:opacity-100" />
                         </div>

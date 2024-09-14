@@ -4,13 +4,23 @@
     <div class="hpp__startJourneyCTAWrapper">
         <div class="flex">
             <div class="main__gridWrap basis-1/2">
-                <GeneralGreenInitiativeLargeGrid />
+                <ClientOnly fallback-tag="span" fallback="Loading comments...">
+                    <GeneralGreenInitiativeLargeGrid />
+                </ClientOnly>
             </div>
             <div class="flex flex-wrap basis-1/2">
-                <GeneralGreenInitiativeSmallGridOne />
-                <GeneralGreenInitiativeSmallGridTwo />
-                <GeneralGreenInitiativeSmallGridThree />
-                <GeneralGreenInitiativeSmallGridFour />
+                <ClientOnly fallback-tag="span" fallback="Loading comments...">
+                    <GeneralGreenInitiativeSmallGridOne />
+                </ClientOnly>
+                <ClientOnly fallback-tag="span" fallback="Loading comments...">
+                    <GeneralGreenInitiativeSmallGridTwo />
+                </ClientOnly>
+                <ClientOnly fallback-tag="span" fallback="Loading comments...">
+                    <GeneralGreenInitiativeSmallGridThree />
+                </ClientOnly>
+                <ClientOnly fallback-tag="span" fallback="Loading comments...">
+                    <GeneralGreenInitiativeSmallGridFour />
+                </ClientOnly>
             </div>
         </div>
     </div>
