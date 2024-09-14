@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     // provider: 'ipx',
     provider: 'netlify',
     // provider: 'netlifyImageCdn',
-    domains: ['hppfrontend.netlify.app/'],
+    domains: ['https://hppfrontend-new.netlify.app/'],
     // dir: "",
   },
 
