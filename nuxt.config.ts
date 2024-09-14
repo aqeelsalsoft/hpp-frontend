@@ -48,8 +48,8 @@ export default defineNuxtConfig({
   // Nuxt Image Module Config
   image: {
     // provider: 'ipx',
-    // provider: 'netlify',
-    provider: 'netlifyImageCdn',
+    provider: 'netlify',
+    // provider: 'netlifyImageCdn',
     domains: ['hppfrontend.netlify.app/'],
     // dir: "",
   },
