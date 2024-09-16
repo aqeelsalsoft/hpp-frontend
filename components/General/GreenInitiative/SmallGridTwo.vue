@@ -31,7 +31,8 @@ const onImageLoad = (event) => {
     <div class="flex items-center h-[calc(100vh_/_2)] w-6/12 bg-[#333333] relative overflow-hidden">
         <div class="thumb__wrapper w-full h-full relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[rgba(0,0,0,0.6)]">
             <NuxtImg format="webp" :src=imgSrc alt="Eco-Friendly Boxes Thumbnail"
-                loading="lazy" :width=imageWidth :height=imageHeight class="w-full h-full object-cover" @load="onImageLoad" />
+                loading="lazy" width="600" height="600" class="w-full h-full object-cover" />
+                <!-- loading="lazy" :width=imageWidth :height=imageHeight class="w-full h-full object-cover" @load="onImageLoad" /> -->
         </div>
         <div class="Inner absolute bottom-0 left-0 w-full">
             <div class="py-6 px-8">

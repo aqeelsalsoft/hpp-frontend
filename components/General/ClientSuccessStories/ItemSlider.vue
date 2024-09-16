@@ -54,7 +54,7 @@ onBeforeUnmount(() => {
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
                             <NuxtImg format="webp" src="/images/client-success-stories/olive-knives.webp"
-                                alt="Cosmetic Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                                alt="Olive Knives Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
@@ -69,8 +69,8 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/eight-plus-face-cream.jpg"
-                                alt="Mailer Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/eight-plus-face-cream.webp"
+                                alt="8+ Face Cream Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
@@ -85,12 +85,12 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/intoxicated-cosmetics.jpg"
-                                alt="Candle Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/mermaid-cove.webp"
+                                alt="Mermaid Cove Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top">X</span> HPP</h3>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Mermaid Cove <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top">X</span> HPP</h3>
                             <p class="font-description text-acai text-[12px] lg:text-[14px]">Intoxicated Cosmetics Meeting Skincare Revolution with Our Packaging Innovation</p>
                         </div>
                     </NuxtLink>
@@ -101,12 +101,12 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/mermaid-cove.jpg"
-                                alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/churro-on-top.webp"
+                                alt="Curro On Top Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Mermaid Cove <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP</h3>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Curro On Top <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP</h3>
                             <p class="font-description text-acai text-[12px] lg:text-[14px]">Mermaid Cove and Half Price Packaging: A Green Style Collaboration</p>
                         </div>
                     </NuxtLink>
@@ -117,12 +117,12 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/olive-knives.webp"
-                                alt="Cosmetic Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/intoxicated-cosmetics.webp"
+                                alt="Intoxicated Cosmetics Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Olive Knives <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
                             <p class="font-description text-acai text-[12px] lg:text-[14px]">How Do Olive Knives Get the Functional Luxury Packaging for Their Survival Gear</p>
                         </div>
                     </NuxtLink>
@@ -133,12 +133,12 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/eight-plus-face-cream.jpg"
-                                alt="Mailer Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/grimms-brook.webp"
+                                alt="GRIMMSBROOK Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">8+ Face Cream <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">GRIMMSBROOK <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-headings font-bold align-top">X</span> HPP</h3>
                             <p class="font-description text-acai text-[12px] lg:text-[14px]">Packaging with Bold Colors & Luxury Vibes - All That 8+ Face Cream for Men's Needed</p>
                         </div>
                     </NuxtLink>
@@ -149,12 +149,12 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/intoxicated-cosmetics.jpg"
-                                alt="Candle Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/rainy-rivers.webp"
+                                alt="Rainy Rivers Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Intoxicated Cosmetics <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top">X</span> HPP</h3>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Rainy Rivers <span class="text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top">X</span> HPP</h3>
                             <p class="font-description text-acai text-[12px] lg:text-[14px]">Intoxicated Cosmetics Meeting Skincare Revolution with Our Packaging Innovation</p>
                         </div>
                     </NuxtLink>
@@ -165,12 +165,12 @@ onBeforeUnmount(() => {
                     <NuxtLink to="#"
                         class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
                         <div class="thumb__wrap w-[100%] bg-[#efefef] rounded-[32px] overflow-hidden">
-                            <NuxtImg format="webp" src="/images/client-success-stories/mermaid-cove.jpg"
-                                alt="Soap Boxes Thumbnail" loading="lazy" fit="cover" width="336" height="420"
+                            <NuxtImg format="webp" src="/images/client-success-stories/snap-suppliments.webp"
+                                alt="Snap Suppliments Thumbnail" loading="lazy" fit="cover" width="336" height="420"
                                 class="w-full h-auto" />
                         </div>
                         <div class="desc__wrap py-[10px]">
-                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Mermaid Cove <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP</h3>
+                            <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-3">Snap Suppliments <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP</h3>
                             <p class="font-description text-acai text-[12px] lg:text-[14px]">Mermaid Cove and Half Price Packaging: A Green Style Collaboration</p>
                         </div>
                     </NuxtLink>
