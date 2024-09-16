@@ -3,58 +3,54 @@
 <template>
     <div class="hpp__instantFormWrapper">
         <div class="px-4 flex flex-wrap items-center justify-center">
-            <div class="text-center basis-full mb-[50px] max-w-2xl">
-                <h3 class="font-headings text-[#212529] text-[36px] leading-[40px] font-bold mb-[15px]">Order a Sample Kit</h3>
-                <p class="font-description text-[#212529] text-[14px] leading-[22px]">Get Free Consultation and Order Your Sample Kit to
-                    feel More Confident for Choosing Half Price Packaging as your product packaging partner.</p>
-            </div>
-            <div class="w-full bg-white max-w-[880px] shadow-2xl sm:rounded-3xl flex overflow-hidden">
-                <div class="thumbnail__wrap relative overflow-hidden w-[350px]">
-                    <NuxtImg format="webp" src="/images/sample-kit.jpg" alt="Sample Kit Thumbnail" loading="lazy" width="350"
-                        height="457" class="absolute w-full h-full object-cover" />
-                </div>
-                <div class="form__wrap w-[calc(100%_-_350px)] p-[30px]">
+            <div class="w-full">
+                <div class="form__wrap relative w-[50%] px-[30px]">
+                    <div class="header__wrap mb-[30px]">
+                        <h2 class="font-headings text-3xl font-bold tracking-tight text-[#ef4b5f] sm:text-4xl mb-4">Order a
+                            Sample Kit</h2>
+                        <p class="font-description text-[#212529] text-[14px] leading-[22px]">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
+                    </div>
                     <form id="hpp__instantPricesForm" class="mb-0">
                         <div class="flex flex-wrap ml-[-5px] mr-[-5px]">
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-full-name" class="sr-only">Full Name</label>
                                 <input type="text" placeholder="Full Name" id="ipf-full-name"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-email" class="sr-only">Email</label>
                                 <input type="email" placeholder="Email" id="ipf-email"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-phone" class="sr-only">Phone</label>
                                 <input type="text" placeholder="Phone" id="ipf-phone"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-company-name" class="sr-only">Company Name</label>
                                 <input type="text" placeholder="Company Name" id="ipf-company-name"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-website" class="sr-only">Website</label>
                                 <input type="text" placeholder="Website" id="ipf-website"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-address" class="sr-only">Physical Address</label>
                                 <input type="text" placeholder="Physical Address" id="ipf-address"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-quantity" class="sr-only">Quantity</label>
                                 <input type="text" placeholder="Quantity" id="ipf-quantity"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]" />
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent" />
                             </div>
                             <div class="relative basis-[50%] px-[5px] mb-[10px]">
                                 <label for="ipf-select-industry" class="sr-only">Select Industry</label>
                                 <select name="box-type" id="ipf-select-industry"
-                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px]">
+                                    class="font-description hover:cursor-pointer focus:cursor-auto rounded-lg w-full text-xs font-light transition-all resize-none outline-none border border-gray-200 hover:border-gray-300 py-[10px] px-[17px] bg-transparent">
                                     <option value="">Select Industry</option>
                                     <option value="Automotive">Automotive</option>
                                     <option value="Electronics">Electronics</option>
@@ -90,10 +86,7 @@
                                     <option value="Fragrance">Fragrance</option>
                                 </select>
                             </div>
-                            <div class="flex items-end justify-center basis-full px-[5px] mb-[10px]">
-                                <NuxtImg format="webp" src="/images/recaptcha-placeholder.png" alt="Sample Kit Thumbnail" loading="lazy" width="350" height="88" class="w-[350px] h-auto" />
-                            </div>
-                            <div class="flex items-end justify-center basis-full px-[5px]">
+                            <div class="flex items-end basis-full px-[5px] mt-[10px]">
                                 <button
                                     class="font-description text-[#ffffff] text-[14px] font-medium border border-[#ef4b5f] bg-[#ef4b5f] select-none transition-all py-[8px] px-[35px] rounded-[35px] no-underline select-none font-normal"
                                     type="submit">Order Now</button>
