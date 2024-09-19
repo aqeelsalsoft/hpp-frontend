@@ -200,9 +200,10 @@
                                 <NuxtLink
                                     href="https://www.bbb.org/us/ca/fremont/profile/packaging-service/half-price-packaging-1116-920459/#sealclick"
                                     target="_blank" rel="nofollow">
-                                    <NuxtImg format="webp" loading="lazy"
+                                    <!-- <NuxtImg format="webp" loading="lazy"
                                         src="https://seal-goldengate.bbb.org/seals/blue-seal-200-42-bbb-920459.png"
-                                        class="border-0 w-full h-auto" alt="Half Price Packaging BBB Business Review" width="200" height="42" />
+                                        class="border-0 w-full h-auto" alt="Half Price Packaging BBB Business Review" width="200" height="42" /> -->
+                                        <img src="https://seal-goldengate.bbb.org/seals/blue-seal-200-42-bbb-920459.png" style="border: 0;" alt="Half Price Packaging BBB Business Review" loading="lazy" />
                                 </NuxtLink>
                             </div>
                             <div class="logo w-[100px]">
