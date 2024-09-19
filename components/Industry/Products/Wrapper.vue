@@ -207,9 +207,9 @@ const backgroundStyles = computed(() => {
                     </div>
 
                     <div class="view__catalogueWrapper">
-                        <div class="view__catalogueWrap bg-bottom bg-no-repeat bg-contain overflow-hidden rounded-[32px] pt-[50px] px-[30px] pb-[110%] bg-[#a5a87a]" :style="backgroundStyles">
-                            <h3
-                                class="font-headings text-white text-[24px] leading-[30px] font-bold mb-[25px]">
+                        <div class="view__catalogueWrap bg-bottom bg-no-repeat bg-contain overflow-hidden rounded-[32px] pt-[50px] px-[30px] pb-[110%] bg-[#a5a87a]"
+                            :style="backgroundStyles">
+                            <h3 class="font-headings text-white text-[24px] leading-[30px] font-bold mb-[25px]">
                                 Find a better price and we’ll beat it by up to 20%.
                             </h3>
                             <NuxtLink to="#"
@@ -219,7 +219,7 @@ const backgroundStyles = computed(() => {
                     </div>
 
                 </div>
-                <div class="grid grid-cols-4 gap-[30px] w-[calc(100%_-_300px)]">
+                <div class="grid grid-cols-4 content-start gap-[30px] w-[calc(100%_-_300px)]">
                     <div class="item__wrap">
                         <NuxtLink to="#"
                             class="relative flex items-center sm:block bg-white px-4 sm:p-2 cursor-pointer font-mori group tracking-mori rounded-[20px] sm:rounded-b-[12px] sm:rounded-t-[36px] sm:hover:shadow-xl sm:border-[2px] sm:border-white sm:hover:border-[#fbfbfb] transition-all duration-300">
@@ -268,11 +268,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Soap
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Soap
                                     Boxes With Window</h3>
                             </div>
                         </NuxtLink>
@@ -287,11 +287,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Die Cut
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Die Cut
                                     Soap Boxes</h3>
                             </div>
                         </NuxtLink>
@@ -306,11 +306,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Soap
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Soap
                                     Wraps</h3>
                             </div>
                         </NuxtLink>
@@ -325,11 +325,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Soap
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Soap
                                     Subscription Boxes</h3>
                             </div>
                         </NuxtLink>
@@ -344,11 +344,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">
                                     Cardboard Soap Boxes</h3>
                             </div>
                         </NuxtLink>
@@ -363,11 +363,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Square
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Square
                                     Soap Boxes</h3>
                             </div>
                         </NuxtLink>
@@ -382,11 +382,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Luxury
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Luxury
                                     Soap Packaging</h3>
                             </div>
                         </NuxtLink>
@@ -401,11 +401,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Soap
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Soap
                                     Hotel Amenities</h3>
                             </div>
                         </NuxtLink>
@@ -420,11 +420,11 @@ const backgroundStyles = computed(() => {
                             </div>
                             <div class="desc__wrap py-[10px]">
                                 <div
-                                    class="font-description hidden text-[13px] leading-[18px] text-acai-120 sm:flex items-center flex-wrap mb-2">
+                                class="font-description hidden text-[11px] leading-[17px] text-acai-120 sm:flex items-center flex-wrap mb-1">
                                     <span>Min. 5000 units</span><span class="text-[18px] px-2">·</span><span>Delivery: 4
                                         weeks</span>
                                 </div>
-                                <h3 class="font-headings text-[20px] leading-[24px] text-acai font-bold mb-0.5">Eco
+                                <h3 class="font-headings text-[18px] leading-[22px] text-acai font-bold mb-0.5">Eco
                                     Friendly Soap Boxes</h3>
                             </div>
                         </NuxtLink>

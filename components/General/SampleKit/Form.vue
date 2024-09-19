@@ -3,8 +3,8 @@
 <template>
     <div class="hpp__instantFormWrapper">
         <div class="px-4 flex flex-wrap items-center justify-center">
-            <div class="w-full">
-                <div class="form__wrap relative w-[50%] px-[30px]">
+            <div class="w-full flex items-center">
+                <div class="form__wrap relative w-[60%] px-[30px]">
                     <div class="header__wrap mb-[30px]">
                         <h2 class="font-headings text-3xl font-bold tracking-tight text-[#ef4b5f] sm:text-4xl mb-4">Order a
                             Sample Kit</h2>
@@ -93,6 +93,10 @@
                             </div>
                         </div>
                     </form>
+                </div>
+                <div class="w-[40%] text-right">
+                    <NuxtImg format="webp" src="/images/box-sample-kit.png" alt="Sample Kit Thumbnail" loading="lazy"
+                class="inline-block w-[400px] h-auto object-contain" />
                 </div>
             </div>
         </div>

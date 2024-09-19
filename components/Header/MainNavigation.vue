@@ -450,7 +450,7 @@
                                                 <div
                                                     class="thumb__wrap w-[100%] bg-[#efefef] rounded-[24px] overflow-hidden">
                                                     <NuxtImg format="webp"
-                                                        src="/images/client-success-stories/eight-plus-face-cream.jpg"
+                                                        src="/images/client-success-stories/eight-plus-face-cream.webp"
                                                         alt="Kraft Soap Boxes Thumbnail" loading="lazy" fit="cover"
                                                         width="336" height="236" class="w-full h-auto" />
                                                 </div>
@@ -467,7 +467,7 @@
                                                 <div
                                                     class="thumb__wrap w-[100%] bg-[#efefef] rounded-[24px] overflow-hidden">
                                                     <NuxtImg format="webp"
-                                                        src="/images/client-success-stories/intoxicated-cosmetics.jpg"
+                                                        src="/images/client-success-stories/intoxicated-cosmetics.webp"
                                                         alt="Soap Boxes With Window Thumbnail" loading="lazy"
                                                         fit="cover" width="336" height="236" class="w-full h-auto" />
                                                 </div>
