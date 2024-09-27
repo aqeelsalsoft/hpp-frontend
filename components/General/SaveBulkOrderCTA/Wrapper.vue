@@ -18,7 +18,7 @@
                             </radialGradient>
                         </defs>
                     </svg>
-                    <div class="mx-auto w-[calc(100%_-_185px)] text-left lg:mx-0 lg:flex-auto lg:py-[15px]">
+                    <div class="mx-auto w-[calc(100%_-_185px)] text-left lg:mx-0 lg:flex-auto lg:py-[30px]">
                         <!-- class="font-description inline-block text-white text-[12px] font-semibold leading-none bg-[#ef4b5f] px-[25px] pt-[6px] pb-[6px] rounded-[50px] mb-1">Do -->
                         <div class="flex items-center">
                             <span

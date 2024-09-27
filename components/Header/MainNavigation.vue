@@ -433,7 +433,7 @@
                                                 <div
                                                     class="thumb__wrap w-[100%] bg-[#efefef] rounded-[24px] overflow-hidden">
                                                     <NuxtImg format="webp"
-                                                        src="/images/client-success-stories/olive-knives.webp"
+                                                        src="/images/client-success-stories/olive-knives.jpg"
                                                         alt="Soap Sleeves Thumbnail" loading="lazy" fit="cover"
                                                         width="336" height="236" class="w-full h-auto" />
                                                 </div>
@@ -450,7 +450,7 @@
                                                 <div
                                                     class="thumb__wrap w-[100%] bg-[#efefef] rounded-[24px] overflow-hidden">
                                                     <NuxtImg format="webp"
-                                                        src="/images/client-success-stories/eight-plus-face-cream.webp"
+                                                        src="/images/client-success-stories/eight-plus-face-cream.jpg"
                                                         alt="Kraft Soap Boxes Thumbnail" loading="lazy" fit="cover"
                                                         width="336" height="236" class="w-full h-auto" />
                                                 </div>
@@ -467,7 +467,7 @@
                                                 <div
                                                     class="thumb__wrap w-[100%] bg-[#efefef] rounded-[24px] overflow-hidden">
                                                     <NuxtImg format="webp"
-                                                        src="/images/client-success-stories/intoxicated-cosmetics.webp"
+                                                        src="/images/client-success-stories/intoxicated-cosmetics.jpg"
                                                         alt="Soap Boxes With Window Thumbnail" loading="lazy"
                                                         fit="cover" width="336" height="236" class="w-full h-auto" />
                                                 </div>
@@ -485,6 +485,58 @@
                                                 <a href="#"
                                                     class="group flex items-center pr-[34px] relative hover:text-[#ef4b5f] font-description">
                                                     Mermaid Cove <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                                                        class="absolute top-[50%] right-0 translate-y-[-50%] size-4 ml-[10px] group-hover:text-[#ef4b5f]">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                                    </svg>
+
+                                                </a>
+                                            </li>
+                                            <li class="mb-[10px]">
+                                                <a href="#"
+                                                    class="group flex items-center pr-[34px] relative hover:text-[#ef4b5f] font-description">
+                                                    Churro On Top <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                                                        class="absolute top-[50%] right-0 translate-y-[-50%] size-4 ml-[10px] group-hover:text-[#ef4b5f]">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                                    </svg>
+
+                                                </a>
+                                            </li>
+                                            <li class="mb-[10px]">
+                                                <a href="#"
+                                                    class="group flex items-center pr-[34px] relative hover:text-[#ef4b5f] font-description">
+                                                    GrimmsBrook <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                                                        class="absolute top-[50%] right-0 translate-y-[-50%] size-4 ml-[10px] group-hover:text-[#ef4b5f]">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                                    </svg>
+
+                                                </a>
+                                            </li>
+                                            <li class="mb-[10px]">
+                                                <a href="#"
+                                                    class="group flex items-center pr-[34px] relative hover:text-[#ef4b5f] font-description">
+                                                    Rainy Rivers <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                                                        class="absolute top-[50%] right-0 translate-y-[-50%] size-4 ml-[10px] group-hover:text-[#ef4b5f]">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                                    </svg>
+
+                                                </a>
+                                            </li>
+                                            <li class="mb-[10px]">
+                                                <a href="#"
+                                                    class="group flex items-center pr-[34px] relative hover:text-[#ef4b5f] font-description">
+                                                    Evolve Cannabis <span class="font-headings text-[#ef4b5f] text-[24px] leading-[20px] font-bold align-top mx-[5px]">X</span> HPP
                                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                         viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
                                                         class="absolute top-[50%] right-0 translate-y-[-50%] size-4 ml-[10px] group-hover:text-[#ef4b5f]">

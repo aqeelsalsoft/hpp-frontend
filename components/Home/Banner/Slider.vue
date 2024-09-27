@@ -21,7 +21,7 @@ const dotHelper = computed(() => {
     return keenSlider.value ? [...Array(keenSlider.value.track.details.slides.length).keys()] : [];
 });
 
-const sliderImgOne = '/images/home-banner/banner-slider-image.jpg'
+const sliderImgOne = '/images/home-banner/banner-slider-image.png'
 const sliderImgTwo = '/images/home-banner/banner-slider-image2.png'
 
 // Define reactive properties for width and height
