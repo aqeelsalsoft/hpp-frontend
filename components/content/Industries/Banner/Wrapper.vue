@@ -1,4 +1,40 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+
+// import { useRoute } from 'vue-router'
+// import { queryContent, useAsyncData } from '#imports' // Nuxt 3 import for Content module
+
+// // Get the current route dynamically
+// const route = useRoute();
+
+// // Dynamically fetch the content for the current route
+// const { data: content } = await useAsyncData(() =>
+//     queryContent(route.path).findOne() // Fetch content based on the current route
+// );
+
+defineProps({
+    title: {
+        type: String,
+        default: 'Default title'
+    },
+    description: {
+        type: String,
+        default: 'Default description'
+    },
+    btnText: {
+        type: String,
+        default: 'Button'
+    },
+    thumbUrl: {
+        type: String,
+        default: 'image url'
+    },
+    thumbAlt: {
+        type: String,
+        default: 'Placeholder Image'
+    },
+})
+
+</script>
 
 <template>
     <div class="hpp__categoryBannerWrapper pt-[70px] pb-[100px] bg-[#f9fafb]">
@@ -7,6 +43,9 @@
                 <div class="content__wrap w-[45%]">
                     <!-- <IndustryBannerContent /> -->
                     <!-- <slot /> -->
+                    <!-- <pre>
+                        {{ content?.body }}
+                    </pre> -->
                     <div class="hpp__categoryBannerContentWrapper pl-[15px] pr-[50px]">
                         <div class="breadcrumbs__wrap mb-[20px]">
                             <ul class="flex items-center gap-[10px]">
@@ -31,22 +70,18 @@
                             </ul>
                         </div>
                         <div class="desc__wrap">
-                            <!-- <h1 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><ContentSlot :use="$slots.defaults" unwrap="p" /></h1> -->
-                            <!-- <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]"></p> -->
-                            <ContentSlot :use="$slots.default" unwrap="p" />
-                            <!-- <div class="btn__wrapper">
-                                <NuxtLink to="#"
-                                    class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
-                                    Browse Products</NuxtLink>
-                            </div> -->
+                            <h1 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ title }}</h1>
+                            <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{ description }}</p>
+                            <div class="btn__wrapper">
+                                <NuxtLink to="#" class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">{{ btnText }}</NuxtLink>
+                            </div>
                         </div>
                     </div>
 
                 </div>
                 <div class="thumb__wrapper w-[55%] flex justify-end">
-                    <ContentSlot :use="$slots.dummy" />
-                    <NuxtImg preload format="webp" src="/images/industry/soap/custom-soap-boxes.jpeg"
-                        alt="Custom Soap Boxes" width="500" height="275" class="max-w-full h-auto" />
+                    <!-- <NuxtImg preload format="webp" :src="thumbUrl"
+                        :alt="thumbAlt" width="500" height="275" class="max-w-full h-auto" /> -->
                 </div>
             </div>
         </div>
