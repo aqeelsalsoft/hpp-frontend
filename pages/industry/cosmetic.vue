@@ -16,7 +16,7 @@ const { data, status, error, refresh, clear } = await useAsyncData(
 );
 
 
-// console.log("dataa", data?.value?.category, data?.value?.category?.title);
+console.log("dataa", data?.value?.category, data?.value?.category?.title);
 
 // Create the image link dynamically
 const featuredImageLink = computed(() => {
