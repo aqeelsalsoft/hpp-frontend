@@ -80,7 +80,7 @@ const onImageLoadTwo = (event) => {
                         <div class="slide__imageWrap">
                             <!-- <NuxtImg preload format="webp" :src=sliderImgOne alt="Home Banner Image" :width=imageWidth
                                 :height=imageHeight class="w-full h-[490px] object-cover" @load="onImageLoad" /> -->
-                            <NuxtImg preload format="webp" :src=sliderImgOne alt="Home Banner Image" class="w-full h-[490px] object-cover" />
+                            <NuxtImg preload format="webp" width="1920" height="490" :src=sliderImgOne alt="Home Banner Image" class="w-full h-[490px] object-cover" />
                         </div>
                         <div class="slider__innerWrap absolute w-full left-0 top-2/4 -translate-y-1/2">
                             <div class="px-[120px]">
@@ -103,7 +103,7 @@ const onImageLoadTwo = (event) => {
                         <div class="slide__imageWrap">
                             <!-- <NuxtImg loading="lazy" format="webp" :src=sliderImgTwo alt="Home Banner Image"
                                 :width=imageTwoWidth :height=imageTwoHeight class="w-full h-[490px] object-cover" @load="onImageLoadTwo" /> -->
-                            <NuxtImg loading="lazy" format="webp" :src=sliderImgTwo alt="Home Banner Image"
+                            <NuxtImg loading="lazy" format="webp" width="1920" height="490" :src=sliderImgTwo alt="Home Banner Image"
                                 class="w-full h-[490px] object-cover" />
                         </div>
                         <div class="slider__innerWrap absolute w-full left-0 top-2/4 -translate-y-1/2">

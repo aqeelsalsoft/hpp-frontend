@@ -95,7 +95,7 @@
                     </form>
                 </div>
                 <div class="w-[40%] text-right">
-                    <NuxtImg format="webp" src="/images/box-sample-kit.png" alt="Sample Kit Thumbnail" loading="lazy"
+                    <NuxtImg format="webp" src="/images/box-sample-kit.png" width="400" height="483" alt="Sample Kit Thumbnail" loading="lazy"
                 class="inline-block w-[400px] h-auto object-contain" />
                 </div>
             </div>
