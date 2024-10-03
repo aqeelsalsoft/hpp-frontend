@@ -16,40 +16,40 @@ const { data, status, error, refresh, clear } = await useAsyncData(
 );
 
 
-// console.log("dataa", data.value?.category, data.value?.category?.title);
+// console.log("dataa", data?.value?.category, data?.value?.category?.title);
 
 // Create the image link dynamically
 const featuredImageLink = computed(() => {
-    return data.value?.category?.feature_image_path
-        ? `https://www.halfpricepackaging.com/${data.value.category.feature_image_path}`
+    return data?.value?.category?.feature_image_path
+        ? `https://www.halfpricepackaging.com/${data?.value?.category?.feature_image_path}`
         : '';
 });
 
 // Create the image link dynamically
 const ctaImageLink = computed(() => {
-    return data.value?.category?.cta_image_path
-        ? `https://www.halfpricepackaging.com/${data.value.category.cta_image_path}`
+    return data?.value?.category?.cta_image_path
+        ? `https://www.halfpricepackaging.com/${data?.value?.category?.cta_image_path}`
         : '';
 });
 
 // Create the image link dynamically
 const ctaImageLink2 = computed(() => {
-    return data.value?.category?.collection_image_path
-        ? `https://www.halfpricepackaging.com/${data.value.category.collection_image_path}`
+    return data?.value?.category?.collection_image_path
+        ? `https://www.halfpricepackaging.com/${data?.value?.category?.collection_image_path}`
         : '';
 });
 
 // Computed property to remove HTML tags for WhyUs Description
 const cleanWhyUsDescription = computed(() => {
-    return data.value?.category?.whyus_desc
-        ? data.value.category.whyus_desc.replace(/<\/?[^>]+(>|$)/g, "")
+    return data?.value?.category?.whyus_desc
+        ? data?.value?.category?.whyus_desc.replace(/<\/?[^>]+(>|$)/g, "")
         : '';
 });
 
 // Computed property to remove HTML tags
 const cleanWhyUsDescription2 = computed(() => {
-    return data.value?.category?.whyus_desc
-        ? data.value.category.background_desc.replace(/<\/?[^>]+(>|$)/g, "")
+    return data?.value?.category?.whyus_desc
+        ? data?.value?.category?.background_desc.replace(/<\/?[^>]+(>|$)/g, "")
         : '';
 });
 
@@ -135,14 +135,14 @@ const items = [{
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                             </svg></span></li>
-                                    <li><span>{{ data.category?.title }}</span></li>
+                                    <li><span>{{ data?.category?.title }}</span></li>
                                 </ul>
                             </div>
                             <div class="desc__wrap">
                                 <h1 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{
-                                    data.category?.sub_title }}</h1>
+                                    data?.category?.sub_title }}</h1>
                                 <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{
-                                    data.category?.sub_text }}</p>
+                                    data?.category?.sub_text }}</p>
                                 <div class="btn__wrapper">
                                     <NuxtLink to="#"
                                         class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
@@ -153,7 +153,7 @@ const items = [{
 
                     </div>
                     <div class="thumb__wrapper w-[55%] flex justify-end">
-                        <NuxtImg preload format="webp" :src="featuredImageLink" :alt="data.category?.sub_title"
+                        <NuxtImg preload format="webp" :src="featuredImageLink" :alt="data?.category?.sub_title"
                             width="500" height="345" class="max-w-full h-auto" />
                     </div>
                 </div>
@@ -853,12 +853,12 @@ const items = [{
                     <div class="thumb__wrapper basis-[45%] px-[15px]">
                         <div class="thumb__wrap rounded-[32px] overflow-hidden">
                             <NuxtImg format="webp" :src="ctaImageLink" width="556" height="363"
-                                :alt="data.category?.cta_image_alt" loading="lazy" fit="cover" class="w-full h-auto" />
+                                :alt="data?.category?.cta_image_alt" loading="lazy" fit="cover" class="w-full h-auto" />
                         </div>
                     </div>
                     <div class="desc__wrapper basis-[55%] pl-[70px] pr-[15px]">
                         <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{
-                            data.category?.whyus_title }}</h2>
+                            data?.category?.whyus_title }}</h2>
                         <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{
                             cleanWhyUsDescription }}</p>
                         <div class="btn__wrapper">
@@ -872,7 +872,7 @@ const items = [{
                 <div class="flex items-center">
                     <div class="desc__wrapper basis-[55%] pl-[15px] pr-[70px]">
                         <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{
-                            data.category?.background_title }}</h2>
+                            data?.category?.background_title }}</h2>
                         <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{
                             cleanWhyUsDescription2 }}</p>
                         <div class="btn__wrapper">
@@ -884,7 +884,7 @@ const items = [{
                     <div class="thumb__wrapper basis-[45%] px-[15px]">
                         <div class="thumb__wrap rounded-[32px] overflow-hidden">
                             <NuxtImg format="webp" :src="ctaImageLink2" width="556" height="363"
-                                :alt="data.category?.collection_image_alt" loading="lazy" fit="cover"
+                                :alt="data?.category?.collection_image_alt" loading="lazy" fit="cover"
                                 class="w-full h-auto" />
                         </div>
                     </div>
