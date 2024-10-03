@@ -21,21 +21,21 @@ const { data, status, error, refresh, clear } = await useAsyncData(
 // Create the image link dynamically
 const featuredImageLink = computed(() => {
     return data.value?.category?.feature_image_path
-        ? `https://www.halfpricepackaging.com/${data.value.category.feature_image_path}`
+        ? `https://www.halfpricepackaging.com/storage/cat_uploads/${data.value.category.feature_image}`
         : '';
 });
 
 // Create the image link dynamically
 const ctaImageLink = computed(() => {
     return data.value?.category?.cta_image_path
-        ? `https://www.halfpricepackaging.com/${data.value.category.cta_image_path}`
+        ? `https://www.halfpricepackaging.com/storage/cat_uploads/${data.value.category.cta_image}`
         : '';
 });
 
 // Create the image link dynamically
 const ctaImageLink2 = computed(() => {
     return data.value?.category?.collection_image_path
-        ? `https://www.halfpricepackaging.com/${data.value.category.collection_image_path}`
+        ? `https://www.halfpricepackaging.com/storage/cat_uploads/${data.value.category.collection_image}`
         : '';
 });
 
