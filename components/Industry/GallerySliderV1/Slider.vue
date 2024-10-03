@@ -6,22 +6,6 @@ import 'swiper/css/effect-coverflow'; // Import effect-specific styles
 import 'swiper/css/navigation';
 
 import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Import modules
-// import { ref, onMounted } from 'vue';
-
-// const isOpen = ref(false);
-
-// const prevEl = ref(null); // Reference for the prev button
-// const nextEl = ref(null); // Reference for the next button
-// const swiperRef = ref(null); // Reference for the Swiper instance
-
-// onMounted(() => {
-//   if (swiperRef.value) {
-//     swiperRef.value.swiper.params.navigation.prevEl = prevEl.value;
-//     swiperRef.value.swiper.params.navigation.nextEl = nextEl.value;
-//     swiperRef.value.swiper.navigation.init(); // Initialize navigation after the swiper is mounted
-//     swiperRef.value.swiper.navigation.update(); // Update navigation
-//   }
-// });
 
 </script>
 
