@@ -31,6 +31,16 @@ export default defineNuxtConfig({
   //     autoprefixer: {},
   //   },
   // },
+  runtimeConfig: {
+    public: {
+      appName: process.env.APP_NAME,
+      appTitle: process.env.APP_TITLE,
+      apiURL: process.env.API_URL,
+      productMediaURL: process.env.PRODUCT_MEDIA_URL,
+      catMediaURL: process.env.CAT_MEDIA_URL,
+    },
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -50,7 +60,7 @@ export default defineNuxtConfig({
     // provider: 'ipx',
     // provider: 'netlifyImageCdn',
     provider: 'netlify',
-    domains: ['https://hppfrontend-new.netlify.app/'],
+    domains: ['https://hppfrontend-new.netlify.app/', 'https://www.halfpricepackaging.com/'],
     // dir: "",
   },
 
@@ -61,6 +71,8 @@ export default defineNuxtConfig({
       Quicksand: [300, 400, 500, 600, 700],
     }
   },
+
+  // imports: { dirs: ["stores"] },
 
   // Swiper Js Config
   swiper: {

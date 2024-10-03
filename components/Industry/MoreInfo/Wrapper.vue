@@ -1,4 +1,17 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { computed } from 'vue';
+
+const props = defineProps({
+  title: String,
+  content:String
+});
+
+const seoContent = computed(() => {
+    return props?.content
+        ? props?.content.replace(/<\/?[^>]+(>|$)/g, "")
+        : '';
+});
+</script>
 
 <template>
     <div class="hpp__moreInfoContentWrapper pt-[70px] pb-[70px]">
@@ -6,12 +19,12 @@
             <div class="flex flex-wrap justify-center bg-[#f6f6f6] rounded-[32px] px-[50px] py-[50px]">
                 <div class="text-center basis-full mb-[50px] max-w-2xl">
                     <h2 class="font-headings text-[#212529] text-[36px] leading-[40px] font-bold mb-[15px]">Learn More
-                        About Custom Soap Boxes</h2>
-                    <p class="font-description text-[#212529] text-[16px] leading-[24px]">This is a demo description
+                        About {{props.title}}</h2>
+                    <!-- <p class="font-description text-[#212529] text-[16px] leading-[24px]">This is a demo description
                         about
-                        the learn more section</p>
+                        the learn more section</p> -->
                 </div>
-                <div class="flex flex-wrap basis-full -mx-[30px]">
+                <!-- <div class="flex flex-wrap basis-full -mx-[30px]">
                     <div class="desc__wrapper basis-1/2 px-[30px] mb-[30px]">
                         <h2 class="font-headings text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-[20px]">
                             Sell Your Original Beauty Bars in Custom Soap Packaging</h2>
@@ -108,6 +121,9 @@
                                 href="mailto:orders@halfpricepackaging.com">orders@halfpricepackaging.com</a> to obtain
                             your envisioned soap packaging.</p>
                     </div>
+                </div> -->
+                <div class="flex flex-wrap basis-full -mx-[30px]">
+                   <div class="desc__wrapper">{{ seoContent }}</div>
                 </div>
             </div>
 
