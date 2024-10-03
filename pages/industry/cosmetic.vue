@@ -16,7 +16,7 @@ const { data, status, error, refresh, clear } = await useAsyncData(
 );
 
 
-console.log("dataa", data.value.category, data.value.category.title);
+// console.log("dataa", data.value?.category, data.value?.category?.title);
 
 // Create the image link dynamically
 const featuredImageLink = computed(() => {
@@ -64,6 +64,12 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Import modules
 
+const img = useImage()
+const backgroundStyles = computed(() => {
+    const imgUrl = img('/images/industry/soap/gallery/soap-box-gallery2.jpg', { format: 'webp', width: '303px', height: '405px' })
+    return { backgroundImage: `url('${imgUrl}')` }
+})
+
 </script>
 
 <template>
@@ -99,14 +105,14 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                             </svg></span></li>
-                                    <li><span>{{ data.category.title }}</span></li>
+                                    <li><span>{{ data.category?.title }}</span></li>
                                 </ul>
                             </div>
                             <div class="desc__wrap">
                                 <h1 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{
-                                    data.category.sub_title }}</h1>
+                                    data.category?.sub_title }}</h1>
                                 <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{
-                                    data.category.sub_text }}</p>
+                                    data.category?.sub_text }}</p>
                                 <div class="btn__wrapper">
                                     <NuxtLink to="#"
                                         class="font-description inline-block ease-in-out duration-[0.3s] text-[#ffffff] text-[14px] bg-[#ef4b5f] rounded-[35px] py-[8px] px-[40px] border border-[#ef4b5f] border-solid hover:bg-[#ef4b5f] hover:border-[#ef4b5f]">
@@ -117,7 +123,7 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
 
                     </div>
                     <div class="thumb__wrapper w-[55%] flex justify-end">
-                        <NuxtImg preload format="webp" :src="featuredImageLink" :alt="data.category.sub_title"
+                        <NuxtImg preload format="webp" :src="featuredImageLink" :alt="data.category?.sub_title"
                             width="500" height="345" class="max-w-full h-auto" />
                     </div>
                 </div>
@@ -134,7 +140,7 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
                         <div class="divider__wrap flex bg-[#999999] h-[20px] w-[1px] mx-[15px]"></div>
                         <p class="font-description text-[#212529] text-[16px] leading-[24px] mb-0">We cover all your
                             packaging needs. Can't find yours?
-                            <NuxtLink to="{{ viewAllLink }}"
+                            <NuxtLink to="#"
                                 class="font-description ml-[10px] text-[#ef4b5f] text-[13px] uppercase font-bold inline-flex items-center">
                                 <span>View All</span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" class="size-3 ml-1">
@@ -817,12 +823,12 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
                     <div class="thumb__wrapper basis-[45%] px-[15px]">
                         <div class="thumb__wrap rounded-[32px] overflow-hidden">
                             <NuxtImg format="webp" :src="ctaImageLink" width="556" height="363"
-                                :alt="data.category.cta_image_alt" loading="lazy" fit="cover" class="w-full h-auto" />
+                                :alt="data.category?.cta_image_alt" loading="lazy" fit="cover" class="w-full h-auto" />
                         </div>
                     </div>
                     <div class="desc__wrapper basis-[55%] pl-[70px] pr-[15px]">
                         <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{
-                            data.category.whyus_title }}</h2>
+                            data.category?.whyus_title }}</h2>
                         <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{
                             cleanWhyUsDescription }}</p>
                         <div class="btn__wrapper">
@@ -836,7 +842,7 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
                 <div class="flex items-center">
                     <div class="desc__wrapper basis-[55%] pl-[15px] pr-[70px]">
                         <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{
-                            data.category.background_title }}</h2>
+                            data.category?.background_title }}</h2>
                         <p class="font-description mt-6 text-[16px] leading-[24px] text-gray-600 mb-[30px]">{{
                             cleanWhyUsDescription2 }}</p>
                         <div class="btn__wrapper">
@@ -848,7 +854,7 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
                     <div class="thumb__wrapper basis-[45%] px-[15px]">
                         <div class="thumb__wrap rounded-[32px] overflow-hidden">
                             <NuxtImg format="webp" :src="ctaImageLink2" width="556" height="363"
-                                :alt="data.category.collection_image_alt" loading="lazy" fit="cover"
+                                :alt="data.category?.collection_image_alt" loading="lazy" fit="cover"
                                 class="w-full h-auto" />
                         </div>
                     </div>
@@ -1282,7 +1288,7 @@ import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules'; // Impor
                     <div class="faq__wrapper basis-1/2 pl-[20px]">
                         <h2 class="font-headings text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-[30px]">
                             Frequently Asked <span class="text-[#ef4b5f]">Questions</span></h2>
-                        <UAccordion :items="data.category.faq">
+                        <UAccordion :items="data.category?.faq">
                             <template #default="{ item, index, open }">
                                 <UButton color="gray" variant="soft" size="xl" class="mb-[10px]">
                                     <span class="truncate font-headings font-semibold">{{ item.question }}</span>
