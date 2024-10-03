@@ -76,9 +76,9 @@
                 </div>
                 <div class="widget__wrapper">
                     <div class="title mb-3">
-                        <NuxtLink to="#"
+                        <span
                             class="font-headings text-[16px] font-bold uppercase text-acai-100 hover:text-pitaya-100">
-                            &nbsp;</NuxtLink>
+                            &nbsp;</span>
                     </div>
                     <ul class="font-description">
                         <li class="mb-[5px]">
@@ -281,7 +281,7 @@
             <div class="hpp__logoSocialWrapper">
                 <div class="flex">
                     <div class="flex w-2/3">
-                        <NuxtLink to="/" class="block w-[180px] mr-10">
+                        <NuxtLink to="/" class="block w-[180px] mr-10" aria-label="HPP Footer Logo">
                             <svg class="w-full h-auto" viewBox="0 0 376.445 99.513">
                                 <defs>
                                     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5"

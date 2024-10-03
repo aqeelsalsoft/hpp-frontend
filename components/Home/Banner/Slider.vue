@@ -43,7 +43,7 @@ onMounted(async () => {
     // Set the image dimensions
     imageWidth.value = width
     imageHeight.value = height
-    
+
     // Fetch the image details using useImage
     const { srcTwo, widthTwo, heightTwo } = await useImage({ src: sliderImgTwo });
     // Set the image dimensions
@@ -53,19 +53,19 @@ onMounted(async () => {
 });
 
 const onImageLoad = (event) => {
-  // Optional: Check the rendered size after the image has loaded
-  const imgElement = event.target
+    // Optional: Check the rendered size after the image has loaded
+    const imgElement = event.target
 
-  imageWidth.value = imgElement.clientWidth
-  imageHeight.value = imgElement.clientHeight
+    imageWidth.value = imgElement.clientWidth
+    imageHeight.value = imgElement.clientHeight
 }
 
 const onImageLoadTwo = (event) => {
-  // Optional: Check the rendered size after the image has loaded
-  const imgElement = event.target
+    // Optional: Check the rendered size after the image has loaded
+    const imgElement = event.target
 
-  imageTwoWidth.value = imgElement.clientWidth
-  imageTwoHeight.value = imgElement.clientHeight
+    imageTwoWidth.value = imgElement.clientWidth
+    imageTwoHeight.value = imgElement.clientHeight
 }
 
 
@@ -80,7 +80,9 @@ const onImageLoadTwo = (event) => {
                         <div class="slide__imageWrap">
                             <!-- <NuxtImg preload format="webp" :src=sliderImgOne alt="Home Banner Image" :width=imageWidth
                                 :height=imageHeight class="w-full h-[490px] object-cover" @load="onImageLoad" /> -->
-                            <NuxtImg preload format="webp" width="1920" height="490" :src=sliderImgOne alt="Home Banner Image" class="w-full h-[490px] object-cover" />
+                            <NuxtImg preload format="webp" width="1920" height="490" :src=sliderImgOne
+                                alt="Home Banner Image" class="w-full h-[490px] object-cover"
+                                sizes="100% xl:1350px xxl:1920px" />
                         </div>
                         <div class="slider__innerWrap absolute w-full left-0 top-2/4 -translate-y-1/2">
                             <div class="px-[120px]">
@@ -103,8 +105,9 @@ const onImageLoadTwo = (event) => {
                         <div class="slide__imageWrap">
                             <!-- <NuxtImg loading="lazy" format="webp" :src=sliderImgTwo alt="Home Banner Image"
                                 :width=imageTwoWidth :height=imageTwoHeight class="w-full h-[490px] object-cover" @load="onImageLoadTwo" /> -->
-                            <NuxtImg loading="lazy" format="webp" width="1920" height="490" :src=sliderImgTwo alt="Home Banner Image"
-                                class="w-full h-[490px] object-cover" />
+                            <NuxtImg loading="lazy" format="webp" width="1920" height="490" :src=sliderImgTwo
+                                alt="Home Banner Image" class="w-full h-[490px] object-cover"
+                                sizes="100% xl:1350px xxl:1920px" />
                         </div>
                         <div class="slider__innerWrap absolute w-full left-0 top-2/4 -translate-y-1/2">
                             <div class="px-[120px]">
