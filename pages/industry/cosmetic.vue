@@ -21,21 +21,21 @@ console.log("dataa", data?.value?.category, data?.value?.category?.title);
 // Create the image link dynamically
 const featuredImageLink = computed(() => {
     return data?.value?.category?.feature_image_path
-        ? `https://www.halfpricepackaging.com/${data?.value?.category?.feature_image_path}`
+        ? `/${data?.value?.category?.feature_image_path}`
         : '';
 });
 
 // Create the image link dynamically
 const ctaImageLink = computed(() => {
     return data?.value?.category?.cta_image_path
-        ? `https://www.halfpricepackaging.com/${data?.value?.category?.cta_image_path}`
+        ? `/${data?.value?.category?.cta_image_path}`
         : '';
 });
 
 // Create the image link dynamically
 const ctaImageLink2 = computed(() => {
     return data?.value?.category?.collection_image_path
-        ? `https://www.halfpricepackaging.com/${data?.value?.category?.collection_image_path}`
+        ? `/${data?.value?.category?.collection_image_path}`
         : '';
 });
 
