@@ -2,17 +2,11 @@
 import { computed } from 'vue';
 // import { useFetch } from '#app';  // Import useFetch composable from Nuxt 3
 
-// // Fetch data from the Laravel API
-// const { data, status, error, refresh, clear, pending } = await useFetch('https://admin.halfpricepackaging.com/api/v1/shapes-and-materials', {
-//   params: {
-//     industry: 'cosmetics',
-//     type: 0
-//   }
-// });
 
 const { data, status, error, refresh, clear } = await useAsyncData(
-    'mountains',
-    () => $fetch('https://admin.halfpricepackaging.com/api/v1/shapes-and-materials?industry=cosmetics&type=0')
+  'shapes-materials',
+  () => $fetch('https://admin.halfpricepackaging.com/api/v1/shapes-and-materials?industry=cosmetics&type=0'),
+  { initialCache: false }
 );
 
 
